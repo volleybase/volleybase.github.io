@@ -1,0 +1,1580 @@
+<html>
+<head>
+  <title>Volleybase</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+  <link rel="stylesheet" href="../style.css" type="text/css">
+ </head>
+ <body>
+  <div class="pagetitle">Volleybase</div>
+  <script>
+function showSubmenu(praefix, index) {
+  for (i = 0; i < 9999; ++i) {
+    var elem = document.getElementById(praefix + i);
+    if (elem != null)
+      if (i != index) {
+        if (praefix != 'sm2_')
+          elem.style.display = 'none';
+      } else 
+        elem.style.display = elem.style.display == 'block' ? 'none' : 'block';
+    else if (i > 15)
+      i = 9999;
+  }
+}
+</script>
+
+<div class="menu">
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 0);">Einleitung</a></div>
+<div class="submenu" id="sm_0">
+<div class="submenu_item"><a href="einleitung.html">Einleitung</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 1);">Biologie</a></div>
+<div class="submenu" id="sm_1">
+<div class="submenu_item"><a href="entwicklung.html">Entwicklung</a></div>
+<div class="submenu_item"><a href="biogrundlagen.html">Zur Biologie</a></div>
+<div class="submenu_item"><a href="organe.html">Organe</a></div>
+<div class="submenu_item"><a href="muskeln.html">Muskulatur</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 2);">Theorie</a></div>
+<div class="submenu" id="sm_2">
+<div class="submenu_item"><a href="biomechanik.html">Biomechanik</a></div>
+<div class="submenu_item"><a href="bewegungablauf.html">Bewegung</a></div>
+<div class="submenu_item"><a href="methodik.html">Methodik</a></div>
+<div class="submenu_item"><a href="aggression.html">Aggression</a></div>
+<div class="submenu_item"><a href="belastungschule.html">Belastungen</a></div>
+<div class="submenu_item"><a href="teamfunktion.html">Funtionieren?</a></div>
+<div class="submenu_item"><a href="paedagogik.html">P&auml;dagogik</a></div>
+<div class="submenu_item"><a href="schule.html">Zur Schule</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 3);">Vermitteln</a></div>
+<div class="submenu" id="sm_3">
+<div class="submenu_item"><a href="gewinnen.html">Wie gewinnen?</a></div>
+<div class="submenu_item"><a href="grundlagen.html">VB-Grundlagen</a></div>
+<div class="submenu_item"><a href="unterschied.html">Zum Geschlecht</a></div>
+<div class="submenu_item"><a href="vbvermitteln.html">Modelle</a></div>
+<div class="submenu_item"><a href="lehrweg.html">Lehrweg</a></div>
+<div class="submenu_item"><a href="ball.html">Der Ball</a></div>
+<div class="submenu_item"><a href="mini.html">NW - Mini</a></div>
+<div class="submenu_item"><a href="midi.html">NW - Midi</a></div>
+<div class="submenu_item"><a href="sportkonzept.html">Konzept</a></div>
+<div class="submenu_item"><a href="rahmen.html">Rahmenplan</a></div>
+<div class="submenu_item"><a href="trainingsplan.html">Trainingsplan</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 4);">Allgemeines</a></div>
+<div class="submenu" id="sm_4">
+<div class="submenu_item"><a href="kondition.html">Kondition</a></div>
+<div class="submenu_item"><a href="gleichgewicht.html">Gleichgewicht</a></div>
+<div class="submenu_item"><a href="trainingzuhause.html">Zu Hause</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 5);">VB speziell</a></div>
+<div class="submenu" id="sm_5">
+<div class="submenu_item"><a href="technik.html">Technik</a></div>
+<div class="submenu_item"><a href="service.html">Service</a></div>
+<div class="submenu_item"><a href="annahme.html">Annahme</a></div>
+<div class="submenu_item"><a href="aufspiel.html">Aufspiel</a></div>
+<div class="submenu_item"><a href="angriffa.html">Angriff (I)</a></div>
+<div class="submenu_item"><a href="angriffb.html">Angriff (II)</a></div>
+<div class="submenu_item"><a href="angriffc.html">Angriff (III)</a></div>
+<div class="submenu_item"><a href="block.html">Block</a></div>
+<div class="submenu_item"><a href="verteidigung.html">Verteidigung</a></div>
+<div class="submenu_item"><a href="sicherung.html">Sicherung</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 6);">Zum Spiel</a></div>
+<div class="submenu" id="sm_6">
+<div class="submenu_item"><a href="spielvorbereitung.html">Vor dem Spiel</a></div>
+<div class="submenu_item"><a href="nachspiel.html">Nach dem Spiel</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 7);">Trainer</a></div>
+<div class="submenu" id="sm_7">
+<div class="submenu_item"><a href="trainer.html">Trainer</a></div>
+<div class="submenu_item"><a href="cotrainer.html">Co-Trainer</a></div>
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 8);">&Uuml;bungen</a></div>
+<div class="submenu" id="sm_8">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 0);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k1.html">Die Grundtechniken</a></div>
+<div class="submenu2" id="sm2_0">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 1);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k2.html">Die Grundlagen</a></div>
+<div class="submenu2" id="sm2_1">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u89.html">Fangen und Werfen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u90.html">Fangen und Werfen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u265.html">Das Spiegellaufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u86.html">Die Beinarbeit</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u123.html">Laufen und Springen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u125.html">Laufen und Springen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u286.html">Ein Steinchen im Schuh</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u324.html">Spionball</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 2);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k3.html">Das Obere Zuspiel - "Pritschen"</a></div>
+<div class="submenu2" id="sm2_2">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u171.html">Die Knotenpunkte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u199.html">Die Armposition fixieren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u103.html">Grundtechniken mit 2 Bällen üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u204.html">OZ und UZ mit (seitlicher) Bewegung</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 3);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k4.html">Das Untere Zuspiel - "Baggern"</a></div>
+<div class="submenu2" id="sm2_3">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u263.html">Breite Beinstellung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u264.html">Breite Beinstellung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u170.html">Die Knotenpunkte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u151.html">Das Untere Zuspiel vorbereiten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u152.html">Das Untere Zuspiel erlernen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u153.html">Das Untere Zuspiel üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u167.html">Die Armposition fixieren (hart)</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u166.html">Die Armposition fixieren (sanft)</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u163.html">Breit stehen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u164.html">Körperhaltung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u174.html">Körperhaltung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u177.html">Seitlich spielen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u103.html">Grundtechniken mit 2 Bällen üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u175.html">Körperhaltung 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u204.html">OZ und UZ mit (seitlicher) Bewegung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u244.html">Baggerspiel 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 4);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k5.html">Das Service</a></div>
+<div class="submenu2" id="sm2_4">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u120.html">Das Service von oben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u70.html">Triff Sie!</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 5);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k6.html">Der Angriffsschlag</a></div>
+<div class="submenu2" id="sm2_5">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 6);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k7.html">Der Anlauf</a></div>
+<div class="submenu2" id="sm2_6">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u123.html">Laufen und Springen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u133.html">Den Anlauf lernen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u187.html">Hintern runter!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u229.html">Abstand halten 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u205.html">Abstand halten 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u228.html">Der Anlauf über eine Matte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u135.html">Die Anlaufwege lernen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u182.html">Die Ausgangsposition für den Anlauf</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u13.html">Laufen und Bewegen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u234.html">Die Schrittfolge der Außenangreiferin</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 7);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k8.html">Der Absprung</a></div>
+<div class="submenu2" id="sm2_7">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u125.html">Laufen und Springen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u124.html">Der Armschwung 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 8);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k9.html">Der Armschwung</a></div>
+<div class="submenu2" id="sm2_8">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u124.html">Der Armschwung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u134.html">Der Armschwung 2</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 9);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k10.html">Die Schlagbewegung</a></div>
+<div class="submenu2" id="sm2_9">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u119.html">Die Schlagbewegung vorbereiten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u236.html">Das Teppichklopfen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u134.html">Der Armschwung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u129.html">Die Schlagbewegung im Stand 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u130.html">Die Schlagbewegung im Stand 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u227.html">Die Schlagbewegung im Stand 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u136.html">Tennisbälle werfen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u137.html">Tennisbälle werfen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u138.html">Tennisbälle werfen 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u307.html">Schlag - Verteidigung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u311.html">Schlag - Verteidigung 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u131.html">Schlagfangen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u132.html">Squash</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 10);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k11.html">Der Handgelenkseinsatz</a></div>
+<div class="submenu2" id="sm2_10">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u93.html">Das Schnelle Handgelenk</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u121.html">Der seitliche Handgelenkseinsatz</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 11);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k12.html">Die Landung</a></div>
+<div class="submenu2" id="sm2_11">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u126.html">Die Landung</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 12);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k13.html">Das Timing</a></div>
+<div class="submenu2" id="sm2_12">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u122.html">Das Timing für den Angriff</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u94.html">Den Schnellangriff Erlernen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u95.html">Den Schnellangriff Erlernen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u96.html">Den Schnellangriff Erlernen 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u20.html">Schlag den 2. Ball! 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u92.html">Schlag den 2. Ball! 2</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 13);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k14.html">Der Einbeiner</a></div>
+<div class="submenu2" id="sm2_13">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u206.html">Eine Einführung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u22.html">Den Einbeiner lernen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u23.html">Den Einbeiner üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u208.html">Der Einbeiner um einen Besen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u207.html">Eine koordinative Aufwärmübung</a></div>
+</div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u11.html">Erwisch den Ball!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u231.html">Gehaltene Bälle schlagen - Vorbereitung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u139.html">Gehaltene Bälle schlagen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u230.html">Gehaltene Bälle schlagen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u142.html">Selbstaufgeworfene Bälle schlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u140.html">1er aufwerfen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u141.html">5er aufwerfen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 14);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k15.html">Der Block</a></div>
+<div class="submenu2" id="sm2_14">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u239.html">Den Ballkontakt erfahren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u192.html">Die Körperposition</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u196.html">Die Armführung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u38.html">Blocken Lernen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u238.html">Blocken Lernen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u198.html">Die Armposition fixieren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u39.html">Schnapp Dir den Ball!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u154.html">Die Schrittfolge 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u155.html">Die Schrittfolge 2</a></div>
+</div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 15);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k16.html">Die Grundaktionen</a></div>
+<div class="submenu2" id="sm2_15">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 16);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k17.html">Das Service</a></div>
+<div class="submenu2" id="sm2_16">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u331.html">Ein gezieltes Service</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u197.html">Service mit Gummiband</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u269.html">Gezieltes Service</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u194.html">Aufschlag hinterher</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u270.html">2 Annahmespielerinnen blockieren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u191.html">Chaos</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u184.html">Genauigkeit!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u128.html">Service - Annahme - Fangen mit Nachlaufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u165.html">Service-Annahme-Spiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u69.html">Servicestaffel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u71.html">Toter Fisch</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 17);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k18.html">Die Annahme</a></div>
+<div class="submenu2" id="sm2_17">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u224.html">Orientierung am Spielfeld 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u225.html">Orientierung am Spielfeld 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u304.html">In oder Out</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u264.html">Breite Beinstellung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u57.html">Vorwärts-Rückwärts Bewegen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u58.html">Annehmen und Bewegen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u59.html">Annehmen und Bewegen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u49.html">Annehmen im Oberen Zuspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u60.html">Annehmen und Angreifen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u191.html">Chaos</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u185.html">Körperposition</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u184.html">Genauigkeit!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u56.html">Seitlich Bewegen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u272.html">Einspielen als Annahme und Verteidigungsübung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u128.html">Service - Annahme - Fangen mit Nachlaufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u165.html">Service-Annahme-Spiel</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 18);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k19.html">Das Aufspiel</a></div>
+<div class="submenu2" id="sm2_18">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u183.html">Dreieck der Aufspielerinnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u147.html">Genauigkeit 0er</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u148.html">Genauigkeit 2er</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u157.html">Spielcodes</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u45.html">Gute und Schlechte Erste Bälle</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u62.html">Lies den Block 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u63.html">Lies den Block 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u61.html">Müde Aufspielerin</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u64.html">Schnelle Aufspielerin</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u3.html">Spielelemente unter Laufstreß üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u268.html">Aufspiel - Schlag - Verteidigung im Spielfluss</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 19);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k20.html">Der Angriff</a></div>
+<div class="submenu2" id="sm2_19">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u307.html">Schlag - Verteidigung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u186.html">Schlag - Verteidigung im Dreieck</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u41.html">1 gegen 1 - Block und Angriff</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u1.html">Schlag - Verteidigung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u10.html">Die Bewegung der Außenangreiferin</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u12.html">5 Sterne</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u257.html">Angriff und Blockbildung üben 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u117.html">Einschlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u19.html">Angriffsvariationen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u16.html">Triff die Ecke!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u60.html">Annehmen und Angreifen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u261.html">Angriff und Blockbildung üben 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u21.html">Ballkontrolle unter Streß</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u17.html">Die Bewegung der Mittelblockerin</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u156.html">Den Block überwinden</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u201.html">Aufzug 1/b</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u24.html">Block überwinden für Mittelblockerinnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u51.html">Diagonal Schlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u15.html">Finde den leeren Raum!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u14.html">Hilf dir selbst!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u18.html">Miteinander sprechen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u312.html">Mit sich selbst spielen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u3.html">Spielelemente unter Laufstreß üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u193.html">2:2 Schupferspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u268.html">Aufspiel - Schlag - Verteidigung im Spielfluss</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u52.html">Rechte Seite gegen Linke Seite</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u54.html">Schlag und Tschüss</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u53.html">Y(X) > Grenze = Ok</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 20);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k21.html">Der Block</a></div>
+<div class="submenu2" id="sm2_20">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u221.html">Blockbildung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u222.html">Schau auf die Angreiferin! 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u41.html">1 gegen 1 - Block und Angriff</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u1.html">Schlag - Verteidigung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u193.html">2:2 Schupferspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u257.html">Angriff und Blockbildung üben 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u261.html">Angriff und Blockbildung üben 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u201.html">Aufzug 1/b</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u21.html">Ballkontrolle unter Streß</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u17.html">Die Bewegung der Mittelblockerin</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u24.html">Block überwinden für Mittelblockerinnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u219.html">Blockort finden 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u306.html">Blockort finden 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u220.html">Blockort finden 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u305.html">Den Block schließen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u150.html">Doppelblock am Kleinfeld</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u117.html">Einschlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u55.html">Hol' Sie Dir!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u42.html">Netzentscheidungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u40.html">Schau auf die Angreiferin! 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u203.html">Schlagarm beobachten</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 21);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k22.html">Die Feldverteidigung</a></div>
+<div class="submenu2" id="sm2_21">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u30.html">10 Berührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u35.html">10 Berührungen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u312.html">Mit sich selbst spielen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u307.html">Schlag - Verteidigung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u311.html">Schlag - Verteidigung 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u68.html">15x Verteidigen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u193.html">2:2 Schupferspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u65.html">20 Bälle</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u34.html">Abrollen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u146.html">Absicherung durch die Hinterspielerin</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u268.html">Aufspiel - Schlag - Verteidigung im Spielfluss</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u21.html">Ballkontrolle unter Streß</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u97.html">Bewegungsmuster 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u98.html">Bewegungsmuster 2 - 3m-6m-Laufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u99.html">Bewegungsmuster 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u29.html">Bewegungsmuster 4 - Bleib hinten!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u100.html">Bewegungsmuster 5</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u24.html">Block überwinden für Mittelblockerinnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u176.html">Bück Dich!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u51.html">Diagonal Schlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u36.html">Diagonale Bälle</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u195.html">Die Verteidigung gegen Diagonalangriffe</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u284.html">Die Verteidigung vorbereiten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u103.html">Grundtechniken mit 2 Bällen üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u14.html">Hilf dir selbst!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u37.html">Japanische Verteidigung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u31.html">Keine Angst!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u118.html">Lesen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u2.html">Lesen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u218.html">Lesen am Kleinfeld 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u223.html">Lesen am Kleinfeld 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u200.html">Matten über Kasten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u180.html">Netzannäherung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u181.html">Netzannäherung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u52.html">Rechte Seite gegen Linke Seite</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u48.html">Rechts verteidigen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u73.html">Rette den Ball!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u186.html">Schlag - Verteidigung im Dreieck</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u54.html">Schlag und Tschüss</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u33.html">Schütz die Lücke!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u109.html">Sicherung nach Verteidigung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u110.html">Sicherung nach Verteidigung im Dreieck</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u3.html">Spielelemente unter Laufstreß üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u32.html">Tausch den Platz!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u149.html">Verteidigung gegen Außenangriffe</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u53.html">Y(X) > Grenze = Ok</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 22);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k23.html">Die Sicherung</a></div>
+<div class="submenu2" id="sm2_22">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u193.html">2:2 Schupferspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u146.html">Absicherung durch die Hinterspielerin</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u257.html">Angriff und Blockbildung üben 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u261.html">Angriff und Blockbildung üben 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u21.html">Ballkontrolle unter Streß</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u117.html">Einschlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u14.html">Hilf dir selbst!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u116.html">In den Block schlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u73.html">Rette den Ball!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u74.html">Sichern lernen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u43.html">Sichern üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u109.html">Sicherung nach Verteidigung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u110.html">Sicherung nach Verteidigung im Dreieck</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u108.html">Sicherung Vorbereiten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u111.html">Station 1 - Gegen die Mauer</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u112.html">Station 2 - Gegen die weiche Mauer</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u113.html">Station 3 - Ins Netz</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u114.html">Station 4 - Am Basketballkorb</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u115.html">Station 5 - Ergänzungsübungen</a></div>
+</div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 23);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k24.html">Die Kondition</a></div>
+<div class="submenu2" id="sm2_23">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 24);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k25.html">Die Koordination</a></div>
+<div class="submenu2" id="sm2_24">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 25);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k26.html">Mehrballübungen</a></div>
+<div class="submenu2" id="sm2_25">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u237.html">2 Bälle kontrollieren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u188.html">2 Bälle zu dritt</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u189.html">2 Bälle zu viert</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u28.html">Einspielen mit Streß</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u103.html">Grundtechniken mit 2 Bällen üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u83.html">Im Kreis herum 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u273.html">Im Kreis herum 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u82.html">Jonglieren zu zweit</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u190.html">Spielen mit Nachlaufen mit Zusatzbällen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 26);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k27.html">Der Luftballon</a></div>
+<div class="submenu2" id="sm2_26">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u336.html">Die Ballone vertreiben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u337.html">Die Knallstaffel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u333.html">Einlaufen mit Luftballon 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u334.html">Einlaufen mit Luftballon 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u335.html">Hundefußball</a></div>
+</div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u332.html">Runter schlagen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u25.html">6 Ballkontakte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u27.html">Diagonal Einspielen über das Netz</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u86.html">Die Beinarbeit</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u326.html">Die Spirale</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u172.html">Durcheinander ordnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u104.html">Einspielen als Spielaufbauübung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u105.html">Einspielen als Spielaufbauübung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u26.html">Einspielen über das Netz</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u323.html">Kaninchenjagd</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u179.html">Mit der Nase im Netz</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u312.html">Mit sich selbst spielen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u168.html">Renn mal!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u327.html">Schleuderball</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u85.html">Spielfeld, was bist Du?</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u169.html">Steh auf!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u330.html">Tausendfüßlerrennen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u50.html">Überkopfspiel 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u262.html">Überkopfspiel 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u84.html">Volley Spielen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u91.html">Wo ist der Ball?</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 27);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k28.html">Die Beweglichkeit</a></div>
+<div class="submenu2" id="sm2_27">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u88.html">Bewegen mit Ball (1)</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u87.html">Bewegen mit Ball (2)</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 28);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k29.html">Die Schnelligkeit</a></div>
+<div class="submenu2" id="sm2_28">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 29);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w41.html">Angriff oder Sicherung</a></div>
+<div class="submenu2" id="sm2_29">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u41.html">1 gegen 1 - Block und Angriff</a></div>
+</div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u65.html">20 Bälle</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u66.html">3m Spiel mit Laufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u322.html">Abschießen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u58.html">Annehmen und Bewegen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u59.html">Annehmen und Bewegen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u285.html">Auf und nieder!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u194.html">Aufschlag hinterher</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u245.html">Baggerspiel 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u173.html">Ballholen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u328.html">Die Atome</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u86.html">Die Beinarbeit</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u329.html">Die Reise nach Jerusalem</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u321.html">Drachen schießen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u319.html">Drachenschwanzjagd</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u320.html">Kettenfangen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u200.html">Matten über Kasten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u168.html">Renn mal!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u266.html">Schwarz und Weiss</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u69.html">Servicestaffel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u226.html">Spring über den Ball!</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 30);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k30.html">Die Kraft</a></div>
+<div class="submenu2" id="sm2_30">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 31);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k31.html">Der Bauch</a></div>
+<div class="submenu2" id="sm2_31">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u288.html">Die geraden Bauchmuskeln 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u290.html">Die Oberen Bauchmuskeln 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u291.html">Die Oberen Bauchmuskeln 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u289.html">Die schrägen Bauchmuskeln</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u292.html">Die unteren Bauchmuskeln 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u293.html">Die unteren Bauchmuskeln 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u287.html">Die geraden Bauchmuskeln 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 32);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k32.html">Der Rücken</a></div>
+<div class="submenu2" id="sm2_32">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u106.html">Beinheben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u303.html">Den Rücken stabilisieren 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u301.html">Den Rücken stabilisieren 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u302.html">Den Rücken stabilisieren 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u298.html">Der Lendenbereich</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u299.html">Die Rückenstrecker 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u300.html">Die Rückenstrecker 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u308.html">Die Rückenstrecker 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u309.html">Die Rückenstrecker 4</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u310.html">Oberkörper heben</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 33);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k33.html">Der Rumpf</a></div>
+<div class="submenu2" id="sm2_33">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u81.html">Die Rumpfmuskulatur kräftigen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u107.html">Schulterbereich kräftigen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 34);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k34.html">Die Beine</a></div>
+<div class="submenu2" id="sm2_34">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u296.html">Die Beinpresse mit Partner</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u294.html">Die Kniebeuge</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u295.html">Die Kniebeuge mit Ball</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u297.html">Die Oberschenkelrückseite</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u178.html">Knöchel stärken</a></div>
+</div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 35);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k35.html">Die Ausdauer</a></div>
+<div class="submenu2" id="sm2_35">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u66.html">3m Spiel mit Laufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u58.html">Annehmen und Bewegen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u59.html">Annehmen und Bewegen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u37.html">Japanische Verteidigung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u204.html">OZ und UZ mit (seitlicher) Bewegung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u169.html">Steh auf!</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 36);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k36.html">Das Dehnen</a></div>
+<div class="submenu2" id="sm2_36">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u77.html">Gesäß dehnen (Verknotung)</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u80.html">Hals und Nacken dehnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u79.html">Handgelenke dehnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u76.html">Oberschenkel dehnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u78.html">Schultern dehnen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u75.html">Unterschenkel und Fuß dehnen</a></div>
+</div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 37);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k37.html">Die Spielsysteme</a></div>
+<div class="submenu2" id="sm2_37">
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k38.html">Das Service</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 38);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k39.html">Die Annahme</a></div>
+<div class="submenu2" id="sm2_38">
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k40.html">6er-Riegel</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 39);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k41.html">5er-Riegel</a></div>
+<div class="submenu2" id="sm2_39">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u4.html">Der 5er-Riegel</a></div>
+</div>
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k42.html">4er-Riegel</a></div>
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k43.html">3er-Riegel</a></div>
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k44.html">2er-Riegel</a></div>
+</div>
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k45.html">Das Aufspiel</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 40);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k46.html">Der Angriff</a></div>
+<div class="submenu2" id="sm2_40">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u159.html">Angriffe E</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u158.html">Angriffe M</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 41);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k47.html">Die Sicherung</a></div>
+<div class="submenu2" id="sm2_41">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u43.html">Sichern üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u144.html">Sicherung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u145.html">Sicherung 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u143.html">Sicherung 4</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u101.html">Spielsystem üben</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 42);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k48.html">Die Verteidigung</a></div>
+<div class="submenu2" id="sm2_42">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 43);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k49.html">"6er hinten - Linie lang"</a></div>
+<div class="submenu2" id="sm2_43">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u211.html">Angriff über die Außenposition</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u212.html">Angriff über Kopf</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u8.html">Doppelblock Mitte (4,3)</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u210.html">Einzelblock Mitte - Schnellangriffe</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 44);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k50.html">"6er hinten - Halbkreis"</a></div>
+<div class="submenu2" id="sm2_44">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u7.html">Angriff über die Außenposition</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u9.html">Angriff über Kopf</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u8.html">Doppelblock Mitte (4,3)</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u210.html">Einzelblock Mitte - Schnellangriffe</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u101.html">Spielsystem üben</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u149.html">Verteidigung gegen Außenangriffe</a></div>
+</div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u5.html">Basis</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u209.html">Basis</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u6.html">Ohne</a></div>
+</div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u102.html">Spielsystem üben 2</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 45);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k51.html">Nachwuchsspielsysteme</a></div>
+<div class="submenu2" id="sm2_45">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 46);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k52.html">Für Einsteiger - 1:1</a></div>
+<div class="submenu2" id="sm2_46">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u160.html">Das 1:1 Turnier</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 47);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k53.html">Die Superminis - 2:2</a></div>
+<div class="submenu2" id="sm2_47">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u161.html">2 Ballberührungen einführen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u284.html">Die Verteidigung vorbereiten</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 48);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k54.html">Die Minis - 3:3</a></div>
+<div class="submenu2" id="sm2_48">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u283.html">Annahme und Aufspiel über Kopf</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u282.html">Annahme und frontales Aufspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u216.html">Der Angriff</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u214.html">Die Annahme</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u215.html">Die Annahme zu dritt</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u213.html">Die Basis</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u232.html">Die Grundübung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u233.html">Die Grundübung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u217.html">Die Verteidigung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u284.html">Die Verteidigung vorbereiten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u271.html">Im Spielfluss - Verteidigung-Aufspiel-Angriff</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u218.html">Lesen am Kleinfeld 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u223.html">Lesen am Kleinfeld 2</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 49);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k55.html">Die Midis - 4:4</a></div>
+<div class="submenu2" id="sm2_49">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 50);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k56.html">Das Midikaro</a></div>
+<div class="submenu2" id="sm2_50">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u247.html">Das Midikaro</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u280.html">Die Annahme</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 51);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k57.html">Das Midikaro mit doppelter Kurzsicherung</a></div>
+<div class="submenu2" id="sm2_51">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u275.html">Das Service</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u280.html">Die Annahme</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u274.html">Die Aufgabenverteilung</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u276.html">Die Basis</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u277.html">Die Verteidigung gegen Angriffe in der Mitte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u278.html">Die Verteidigung gegen Außenangriffe</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u279.html">Die Verteidigung gegen Geschenkte Bälle</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 52);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k58.html">Das Spielsystem für Fortgeschrittene</a></div>
+<div class="submenu2" id="sm2_52">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u260.html">Das Aufspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u254.html">Das Service</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u259.html">Die Angriffssicherung in der Mitte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u258.html">Die Angriffssicherung links oder rechts</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u248.html">Die Annahme</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u253.html">Die Basis</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u250.html">Die Verteidigung - Doppelblock Mitte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u251.html">Die Verteidigung - Doppelblock rechts oder links</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u249.html">Die Verteidigung - Einzelblock Mitte</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u252.html">Die Verteidigung - Geschenkter Ball</a></div>
+</div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u255.html">Zu dritt üben</a></div>
+</div>
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k59.html">Das 6:6 - "6er vorne"</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 53);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k60.html">Verschiedene Spielformen</a></div>
+<div class="submenu2" id="sm2_53">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 54);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k61.html">Großfeld</a></div>
+<div class="submenu2" id="sm2_54">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u312.html">Mit sich selbst spielen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u324.html">Spionball</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u67.html">4 Felder Spiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u46.html">Bälle sammeln</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u72.html">Extrapunktspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u44.html">King of the Field</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u47.html">Schaff den Lauf</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u54.html">Schlag und Tschüss</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u165.html">Service-Annahme-Spiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u71.html">Toter Fisch</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u50.html">Überkopfspiel 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 55);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k62.html">Kleinfeld</a></div>
+<div class="submenu2" id="sm2_55">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u193.html">2:2 Schupferspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u66.html">3m Spiel mit Laufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u244.html">Baggerspiel 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u150.html">Doppelblock am Kleinfeld</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u256.html">Midisystem als Denkaufgabe und Bewegungsspiel.</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u312.html">Mit sich selbst spielen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u202.html">Stressed King Of The Field</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u262.html">Überkopfspiel 2</a></div>
+</div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u327.html">Schleuderball</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u245.html">Baggerspiel 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u53.html">Y(X) > Grenze = Ok</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 56);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k63.html">Kleine Spiele</a></div>
+<div class="submenu2" id="sm2_56">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u242.html">Alles</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u285.html">Auf und nieder!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u127.html">Ball über die Schnur</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u240.html">Frisbee 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u241.html">Frisbee 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u243.html">Schnappball (=Parteiball, 8er-Ball, 10er-Ball)</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 57);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k64.html">Sonstiges</a></div>
+<div class="submenu2" id="sm2_57">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 58);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k65.html">Kennenlernen am Trainingslager</a></div>
+<div class="submenu2" id="sm2_58">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u314.html">8 Wörter finden</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u315.html">ABC-Assoziationen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u316.html">Das ist mein ...</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u313.html">Kofferpacken</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 59);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k66.html">Vertrauen schaffen</a></div>
+<div class="submenu2" id="sm2_59">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u317.html">Umkippen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u318.html">Weiterreichen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 60);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k67.html">Gemeinsam eine Aufgabe lösen</a></div>
+<div class="submenu2" id="sm2_60">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u325.html">Der Knoten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u327.html">Schleuderball</a></div>
+</div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 61);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k68.html">Entscheidungssituationen</a></div>
+<div class="submenu2" id="sm2_61">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 62);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k69.html">Die Situationen</a></div>
+<div class="submenu2" id="sm2_62">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 63);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k70.html">Den Ball beobachten</a></div>
+<div class="submenu2" id="sm2_63">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w1.html">Wo ist der Angriff zu erwarten?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w2.html">Hektik vermeiden</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w3.html">Weite Wege</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w4.html">Erfolgreich angreifen</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 64);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w9.html">Warten oder hingehen</a></div>
+<div class="submenu2" id="sm2_64">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u224.html">Orientierung am Spielfeld 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u225.html">Orientierung am Spielfeld 2</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w12.html">Den Ball im Oberen oder Unteren Zuspiel spielen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w13.html">Den Punkt suchen?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w14.html">Blocken oder Lösen 2</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w16.html">Den Verteidigungsort (gegen Linienangriffe) wählen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w17.html">Den Verteidigungsort (gegen Diagonalangriffe) wählen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w18.html">Die Feldverteidigung auf der Position 1</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w19.html">Den Blockort wählen 2</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 65);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w20.html">Blocken oder Lösen 1</a></div>
+<div class="submenu2" id="sm2_65">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u305.html">Den Block schließen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u150.html">Doppelblock am Kleinfeld</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u55.html">Hol' Sie Dir!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u220.html">Blockort finden 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u261.html">Angriff und Blockbildung üben 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u257.html">Angriff und Blockbildung üben 1</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w24.html">Seitlich oder vor dem Körper?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w28.html">Wo verteidigen?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 66);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w34.html">Ball In oder Out</a></div>
+<div class="submenu2" id="sm2_66">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u304.html">In oder Out</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w47.html">Die Aufspielrichtung 2</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 67);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w43.html">Der Ball fliegt zwischen zwei Spielerinnen</a></div>
+<div class="submenu2" id="sm2_67">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u270.html">2 Annahmespielerinnen blockieren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u232.html">Die Grundübung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u233.html">Die Grundübung 2</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w49.html">Aufspielen oder Lösen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 68);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k71.html">Die Gegnerin beobachten</a></div>
+<div class="submenu2" id="sm2_68">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 69);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k72.html">Den Ball spielen</a></div>
+<div class="submenu2" id="sm2_69">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w5.html">Ein Sicherheitsangriff</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 70);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w6.html">Den Block anschlagen</a></div>
+<div class="submenu2" id="sm2_70">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u12.html">5 Sterne</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 71);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w27.html">Lücken ausnützen</a></div>
+<div class="submenu2" id="sm2_71">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u15.html">Finde den leeren Raum!</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 72);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w30.html">Was macht die gegnerische Mittelblockerin? 1</a></div>
+<div class="submenu2" id="sm2_72">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u62.html">Lies den Block 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 73);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w31.html">Was macht die gegnerische Mittelblockerin? 2</a></div>
+<div class="submenu2" id="sm2_73">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u63.html">Lies den Block 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u62.html">Lies den Block 1</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w32.html">Aufspielen oder Angreifen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w33.html">Wer blockt die Aufspielerin?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 74);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w35.html">Ist der Doppelblock geschlossen? 1</a></div>
+<div class="submenu2" id="sm2_74">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u18.html">Miteinander sprechen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 75);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w37.html">Außenangriff gegen Einzelblock</a></div>
+<div class="submenu2" id="sm2_75">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u156.html">Den Block überwinden</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u193.html">2:2 Schupferspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u41.html">1 gegen 1 - Block und Angriff</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 76);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w38.html">Mittelangreiferin gegen Block</a></div>
+<div class="submenu2" id="sm2_76">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u24.html">Block überwinden für Mittelblockerinnen</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w39.html">Mittelangreiferin gegen Feldverteidigung Position 6</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w40.html">Die Staffel</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 77);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k73.html">Die Handlung der Gegnerin antizipieren</a></div>
+<div class="submenu2" id="sm2_77">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w1.html">Wo ist der Angriff zu erwarten?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 78);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w7.html">Lesen lernen</a></div>
+<div class="submenu2" id="sm2_78">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u98.html">Bewegungsmuster 2 - 3m-6m-Laufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u100.html">Bewegungsmuster 5</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u232.html">Die Grundübung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u233.html">Die Grundübung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u97.html">Bewegungsmuster 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u99.html">Bewegungsmuster 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u223.html">Lesen am Kleinfeld 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u2.html">Lesen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u118.html">Lesen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u218.html">Lesen am Kleinfeld 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 79);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w8.html">Die Verteidigung gegen Drehschlag</a></div>
+<div class="submenu2" id="sm2_79">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u34.html">Abrollen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 80);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w10.html">Verteidigen oder Einlaufen? 1</a></div>
+<div class="submenu2" id="sm2_80">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u161.html">2 Ballberührungen einführen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 81);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w11.html">Verteidigen oder Einlaufen? 2</a></div>
+<div class="submenu2" id="sm2_81">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u161.html">2 Ballberührungen einführen</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w14.html">Blocken oder Lösen 2</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 82);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w15.html">Den Blockort wählen 1</a></div>
+<div class="submenu2" id="sm2_82">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u305.html">Den Block schließen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u203.html">Schlagarm beobachten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u219.html">Blockort finden 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u306.html">Blockort finden 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u220.html">Blockort finden 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u40.html">Schau auf die Angreiferin! 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u222.html">Schau auf die Angreiferin! 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u221.html">Blockbildung</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 83);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w20.html">Blocken oder Lösen 1</a></div>
+<div class="submenu2" id="sm2_83">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u305.html">Den Block schließen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u150.html">Doppelblock am Kleinfeld</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u55.html">Hol' Sie Dir!</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u220.html">Blockort finden 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u261.html">Angriff und Blockbildung üben 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u257.html">Angriff und Blockbildung üben 1</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w21.html">Sprungservice?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w23.html">Libera und Flatterservice</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w25.html">Die Anlaufrichtung</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w26.html">Der Schlagarm der Angreiferin</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w42.html">Die Feldverteidigung hinten gegen die Aufspielerin</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w45.html">Verteidigung - Jetzt oder weiter vorbereiten?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w46.html">Die Aufspielrichtung 1</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w47.html">Die Aufspielrichtung 2</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w48.html">Ausdrehen</a></div>
+</div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 84);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k74.html">Die Mitspielerin beobachten</a></div>
+<div class="submenu2" id="sm2_84">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w29.html">Ist die Schnellangreiferin bereit?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 85);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w36.html">Ist der Doppelblock geschlossen? 2</a></div>
+<div class="submenu2" id="sm2_85">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u33.html">Schütz die Lücke!</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w44.html">Eine routinierte Spielerin neben einer 'Anfängerin'</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w49.html">Aufspielen oder Lösen</a></div>
+</div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 86);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k75.html">Die Grundaktionen</a></div>
+<div class="submenu2" id="sm2_86">
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k76.html">Das Service</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 87);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k77.html">Die Annahme</a></div>
+<div class="submenu2" id="sm2_87">
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 88);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w9.html">Warten oder hingehen</a></div>
+<div class="submenu2" id="sm2_88">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u224.html">Orientierung am Spielfeld 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u225.html">Orientierung am Spielfeld 2</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w12.html">Den Ball im Oberen oder Unteren Zuspiel spielen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w21.html">Sprungservice?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w22.html">Libera?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w23.html">Libera und Flatterservice</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w24.html">Seitlich oder vor dem Körper?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 89);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w34.html">Ball In oder Out</a></div>
+<div class="submenu2" id="sm2_89">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u304.html">In oder Out</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 90);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w43.html">Der Ball fliegt zwischen zwei Spielerinnen</a></div>
+<div class="submenu2" id="sm2_90">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u270.html">2 Annahmespielerinnen blockieren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u232.html">Die Grundübung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u233.html">Die Grundübung 2</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w44.html">Eine routinierte Spielerin neben einer 'Anfängerin'</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 91);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k78.html">Das Aufspiel</a></div>
+<div class="submenu2" id="sm2_91">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w2.html">Hektik vermeiden</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w3.html">Weite Wege</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 92);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w10.html">Verteidigen oder Einlaufen? 1</a></div>
+<div class="submenu2" id="sm2_92">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u161.html">2 Ballberührungen einführen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 93);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w11.html">Verteidigen oder Einlaufen? 2</a></div>
+<div class="submenu2" id="sm2_93">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u161.html">2 Ballberührungen einführen</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w29.html">Ist die Schnellangreiferin bereit?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 94);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w30.html">Was macht die gegnerische Mittelblockerin? 1</a></div>
+<div class="submenu2" id="sm2_94">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u62.html">Lies den Block 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 95);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w31.html">Was macht die gegnerische Mittelblockerin? 2</a></div>
+<div class="submenu2" id="sm2_95">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u63.html">Lies den Block 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u62.html">Lies den Block 1</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w32.html">Aufspielen oder Angreifen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w33.html">Wer blockt die Aufspielerin?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w40.html">Die Staffel</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w49.html">Aufspielen oder Lösen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 96);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k79.html">Der Angriff</a></div>
+<div class="submenu2" id="sm2_96">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w4.html">Erfolgreich angreifen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w5.html">Ein Sicherheitsangriff</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 97);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w6.html">Den Block anschlagen</a></div>
+<div class="submenu2" id="sm2_97">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u12.html">5 Sterne</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 98);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w27.html">Lücken ausnützen</a></div>
+<div class="submenu2" id="sm2_98">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u15.html">Finde den leeren Raum!</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 99);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w35.html">Ist der Doppelblock geschlossen? 1</a></div>
+<div class="submenu2" id="sm2_99">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u18.html">Miteinander sprechen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 100);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w37.html">Außenangriff gegen Einzelblock</a></div>
+<div class="submenu2" id="sm2_100">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u156.html">Den Block überwinden</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u193.html">2:2 Schupferspiel</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u41.html">1 gegen 1 - Block und Angriff</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 101);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w38.html">Mittelangreiferin gegen Block</a></div>
+<div class="submenu2" id="sm2_101">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u24.html">Block überwinden für Mittelblockerinnen</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w39.html">Mittelangreiferin gegen Feldverteidigung Position 6</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w49.html">Aufspielen oder Lösen</a></div>
+</div>
+<div class="menu_item2"><img src="../image/category.gif" border="0" /> <a href="../uebung/k80.html">Die Sicherung</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 102);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k81.html">Der Block</a></div>
+<div class="submenu2" id="sm2_102">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w1.html">Wo ist der Angriff zu erwarten?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w13.html">Den Punkt suchen?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 103);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w15.html">Den Blockort wählen 1</a></div>
+<div class="submenu2" id="sm2_103">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u305.html">Den Block schließen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u203.html">Schlagarm beobachten</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u219.html">Blockort finden 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u306.html">Blockort finden 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u220.html">Blockort finden 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u40.html">Schau auf die Angreiferin! 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u222.html">Schau auf die Angreiferin! 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u221.html">Blockbildung</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w19.html">Den Blockort wählen 2</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w45.html">Verteidigung - Jetzt oder weiter vorbereiten?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w46.html">Die Aufspielrichtung 1</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w47.html">Die Aufspielrichtung 2</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 104);"><img src="../image/category.gif" border="0" /></a> <a href="../uebung/k82.html">Die Feldverteidigung</a></div>
+<div class="submenu2" id="sm2_104">
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w1.html">Wo ist der Angriff zu erwarten?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 105);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w7.html">Lesen lernen</a></div>
+<div class="submenu2" id="sm2_105">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u98.html">Bewegungsmuster 2 - 3m-6m-Laufen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u100.html">Bewegungsmuster 5</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u232.html">Die Grundübung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u233.html">Die Grundübung 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u97.html">Bewegungsmuster 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u99.html">Bewegungsmuster 3</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u223.html">Lesen am Kleinfeld 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u2.html">Lesen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u118.html">Lesen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u218.html">Lesen am Kleinfeld 1</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 106);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w8.html">Die Verteidigung gegen Drehschlag</a></div>
+<div class="submenu2" id="sm2_106">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u34.html">Abrollen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 107);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w9.html">Warten oder hingehen</a></div>
+<div class="submenu2" id="sm2_107">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u224.html">Orientierung am Spielfeld 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u225.html">Orientierung am Spielfeld 2</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 108);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w10.html">Verteidigen oder Einlaufen? 1</a></div>
+<div class="submenu2" id="sm2_108">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u161.html">2 Ballberührungen einführen</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 109);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w11.html">Verteidigen oder Einlaufen? 2</a></div>
+<div class="submenu2" id="sm2_109">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u162.html">2 Ballberührungen</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u267.html">5:5 mit offenem Laufen 2</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u246.html">5:5 mit offenem Laufen 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u161.html">2 Ballberührungen einführen</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w12.html">Den Ball im Oberen oder Unteren Zuspiel spielen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w16.html">Den Verteidigungsort (gegen Linienangriffe) wählen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w17.html">Den Verteidigungsort (gegen Diagonalangriffe) wählen</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w18.html">Die Feldverteidigung auf der Position 1</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w24.html">Seitlich oder vor dem Körper?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w25.html">Die Anlaufrichtung</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w26.html">Der Schlagarm der Angreiferin</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w28.html">Wo verteidigen?</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 110);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w34.html">Ball In oder Out</a></div>
+<div class="submenu2" id="sm2_110">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u304.html">In oder Out</a></div>
+</div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 111);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w36.html">Ist der Doppelblock geschlossen? 2</a></div>
+<div class="submenu2" id="sm2_111">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u33.html">Schütz die Lücke!</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w42.html">Die Feldverteidigung hinten gegen die Aufspielerin</a></div>
+<div class="menu_item2"><a href="javascript:showSubmenu('sm2_', 112);"><img src="../image/ifthen.gif" border="0" /></a> <a href="../uebung/w43.html">Der Ball fliegt zwischen zwei Spielerinnen</a></div>
+<div class="submenu2" id="sm2_112">
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u270.html">2 Annahmespielerinnen blockieren</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u232.html">Die Grundübung 1</a></div>
+<div class="menu_item2"><img src="../image/drill.gif" border="0" /> <a href="../uebung/u233.html">Die Grundübung 2</a></div>
+</div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w44.html">Eine routinierte Spielerin neben einer 'Anfängerin'</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w45.html">Verteidigung - Jetzt oder weiter vorbereiten?</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w46.html">Die Aufspielrichtung 1</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w47.html">Die Aufspielrichtung 2</a></div>
+<div class="menu_item2"><img src="../image/ifthen.gif" border="0" /> <a href="../uebung/w48.html">Ausdrehen</a></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="menu_item"><a href="javascript:showSubmenu('sm_', 9);">Nachwort</a></div>
+<div class="submenu" id="sm_9">
+<div class="submenu_item"><a href="paradox.html">Paradoxon (I)</a></div>
+<div class="submenu_item"><a href="paradoxb.html">Paradoxon (II)</a></div>
+</div>
+</div>
+  
+  
+  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+   <tr>
+    <td width="175px">&nbsp;</td>
+    <td width="*">
+<div class="content">
+<p class="title">
+<a name="top">Die Verteidigung</a></p>
+<p class="title2">
+&Uuml;berblick, Systeme, Variationen, Training</p>
+<p class="p1dir"><a href="#Anchor_1">Die Einleitung</a></p>
+<p class="p1dir"><a href="#Anchor_2">Eine &Uuml;bersicht</a></p>
+<p class="p2dir"><a href="#Anchor_3">Die Individuelle Technik</a></p>
+<p class="p2dir"><a href="#Anchor_4">Die Individuelle Taktik</a></p>
+<p class="p2dir"><a href="#Anchor_5">Die Mannschaftstaktik</a></p>
+<p class="p1dir"><a href="#Anchor_6">Die Individuelle Technik</a></p>
+<p class="p2dir"><a href="#Anchor_7">Grundlegendes</a></p>
+<p class="p2dir"><a href="#Anchor_8">Der Block</a></p>
+<p class="p2dir"><a href="#Anchor_9">Der Abwehrbagger</a></p>
+<p class="p2dir"><a href="#Anchor_10">Die Verteidigung &uuml;ber Kopf</a></p>
+<p class="p2dir"><a href="#Anchor_11">Das Obere Zuspiel</a></p>
+<p class="p2dir"><a href="#Anchor_12">Der Hechtbagger</a></p>
+<p class="p2dir"><a href="#Anchor_13">Die Rolle</a></p>
+<p class="p1dir"><a href="#Anchor_14">Die Individuelle Taktik</a></p>
+<p class="p2dir"><a href="#Anchor_15">Das Erkennen der gegnerischen Handlungsabsichten</a></p>
+<p class="p3dir"><a href="#Anchor_16">Worauf ist wann zu achten?</a></p>
+<p class="p3dir"><a href="#Anchor_17">Die K&ouml;rpersignale</a></p>
+<p class="p4dir"><a href="#Anchor_18">Die Angriffsbereitschaft</a></p>
+<p class="p4dir"><a href="#Anchor_19">Die Aufspielerin</a></p>
+<p class="p4dir"><a href="#Anchor_20">Die Anlaufrichtung</a></p>
+<p class="p4dir"><a href="#Anchor_21">Die Entfernung der Angreiferin vom Netz</a></p>
+<p class="p4dir"><a href="#Anchor_22">Die Schulterachse</a></p>
+<p class="p4dir"><a href="#Anchor_23">Der Schlagarm</a></p>
+<p class="p2dir"><a href="#Anchor_24">Die Auswahl einer Gegenstrategie</a></p>
+<p class="p2dir"><a href="#Anchor_25">Die Durchf&uuml;hrung der eigenen Handlung</a></p>
+<p class="p2dir"><a href="#Anchor_26">Einige &Uuml;bungen</a></p>
+<p class="p1dir"><a href="#Anchor_27">Die Gruppentaktik</a></p>
+<p class="p2dir"><a href="#Anchor_28">Das Kreuzen</a></p>
+<p class="p1dir"><a href="#Anchor_29">Die Mannschaftstaktik</a></p>
+<p class="p2dir"><a href="#Anchor_30">Das Spielsystem</a></p>
+<p class="p2dir"><a href="#Anchor_31">Die Verteidigungszonen</a></p>
+<p class="p2dir"><a href="#Anchor_32">Ein System f&uuml;r Anf&auml;ngerinnen</a></p>
+<p class="p2dir"><a href="#Anchor_33">Einige &Uuml;berlegungen</a></p>
+<p class="p2dir"><a href="#Anchor_34">6er-hinten im Halbkreis mit Doppelblock</a></p>
+<p class="p3dir"><a href="#Anchor_35">Die Laufwege</a></p>
+<p class="p3dir"><a href="#Anchor_36">Die Grundstellung - Basis</a></p>
+<p class="p3dir"><a href="#Anchor_37">Der &quot;Geschenkte&quot; Ball</a></p>
+<p class="p3dir"><a href="#Anchor_38">Der Angriff auf der Position 4</a></p>
+<p class="p3dir"><a href="#Anchor_39">Eine Finte auf der Position 4</a></p>
+<p class="p3dir"><a href="#Anchor_40">Der Angriff auf der Position 3</a></p>
+<p class="p3dir"><a href="#Anchor_41">Eine Finte auf der Position 3</a></p>
+<p class="p3dir"><a href="#Anchor_42">Der Angriff auf der Position 2</a></p>
+<p class="p2dir"><a href="#Anchor_43">Einige Erweiterungen des Grundsystems</a></p>
+<p class="p3dir"><a href="#Anchor_44">Der Schnellangriff auf der Position 3</a></p>
+<p class="p3dir"><a href="#Anchor_45">Der Angriff auf der Position 3 - eine Alternative</a></p>
+<p class="p3dir"><a href="#Anchor_46">Der Gegner spielt viele Finten</a></p>
+<p class="p3dir"><a href="#Anchor_47">Der Gegner schl&auml;gt meistens diagonal</a></p>
+<p class="p3dir"><a href="#Anchor_48">Der Gegner schl&auml;gt nicht extrem diagonal</a></p>
+<p class="p3dir"><a href="#Anchor_49">Extreme Kurzsicherung</a></p>
+<p class="p2dir"><a href="#Anchor_50">Einige &Uuml;bungen</a></p>
+<p class="p2dir"><a href="#Anchor_51">Abschlie&szlig;ende Bemerkungen</a></p>
+<p class="p1dir"><a href="#Anchor_52">Literaturverzeichnis</a></p>
+<p class="p1">
+<a name="Anchor_1">Die Einleitung</a></p>
+<p class="p">
+B&ouml;se Zungen behaupten, da&szlig; das Volleyball der Damen im Gegensatz zu dem der Herren nur im Feld und nicht am Netz entschieden wird, da sie eh nicht schlagen k&ouml;nnen. So leicht kann man es sich nicht machen, aber auf mittlerem Niveau stimmt diese Aussage sicher ein bi&szlig;chen, da man auch &quot;nur&quot; mit Verteidigung recht weit kommen kann. Auf h&ouml;herem Niveau hat aber nur eine &quot;komplette&quot; Mannschaft mit besonderen Schwerpunkten eine Chance zu bestehen.</p>
+<p class="p">
+Sicher ist, da&szlig; die Verteidigung auf allen Ebenen entscheidend ist, nur wenn es gelingt, den Ball im Spiel zu halten und passend zur Aufspielerin zu spielen, kann ein gelungener Angriff folgen. Im Komplex 1, der Annahmesituation, kann die Mannschaft das Spiel nur ausgeglichen halten, nur nach einer Verteidigung kann man einen Vorsprung herausholen.</p>
+<p class="p">
+Der Komplex 2, die Verteidigungssituation, wird mit dem Block eingeleitet. Er wurde erst sehr sp&auml;t eingef&uuml;hrt, er galt lange als egoistisch, da damit den &uuml;brigen Mannschaftsmitgliedern die M&ouml;glichkeit zum Ballkontakt genommen wurde. Heute ist er die unabdingbare Voraussetzung f&uuml;r eine erfolgreiche Verteidigung, er sch&uuml;tzt Teile des Feldes gegen harte Angriffe und bietet den &uuml;brigen Spielerinnen die n&ouml;tige Orientierung zum Aufbau des Verteidigungssystems. Jede Spielerin hat verschieden Aufgaben zu erf&uuml;llen, gemeinsam ist ihnen das Hauptziel der Verteidigung: der Ball darf den Boden nicht ber&uuml;hren.</p>
+<p class="p">
+Der Block- und Feldabwehrbereich hat sich in den letzten Jahren erheblich weiterentwickelt und verbessert. Die spielgerechte Vorverlagerung der Abwehrorte brachte zugleich den verst&auml;rkten Einsatz von Behelfstechniken &auml;hnlich wie im Beach-Volleyball mit sich. Diese Entwicklung verbreitet sich aber nur langsam im unteren Leistungsbereich. Vor allem gibt es hier zu wenige Strategien, meist wird unabh&auml;ngig vom Gegner die ganze Saison mit der gleichen Abwehrformation gespielt.</p>
+<p class="p">
+Die Zielsetzung in der Verteidigung ist</p>
+<p class="list"><img src="../image/list.gif" />
+das Erzielen eines Punktes und des Aufschlaggewinns durch den Block,</p>
+<p class="list"><img src="../image/list.gif" />
+das optimale Zusammenwirken im Block und in der Feldabwehr, um zu verhindern, da&szlig; der Ball den Boden ber&uuml;hrt und</p>
+<p class="list"><img src="../image/list.gif" />
+die erfolgreiche Einleitung eines Gegenangriffs.</p>
+<p class="p">
+Eine Abwehrformation/-strategie ist dann wirkungsvoll, wenn sie folgende Anforderungen erf&uuml;llt:</p>
+<p class="list"><img src="../image/list.gif" />
+Sie mu&szlig; sich an die unterschiedlichen F&auml;higkeiten und St&auml;rken der gegnerischen Angreiferinnen anpassen k&ouml;nnen.</p>
+<p class="list"><img src="../image/list.gif" />
+Zu lange Laufwege sollten aus Zeitgr&uuml;nden zugunsten der Handlungsm&ouml;glichkeiten vermieden werden. Dies gilt f&uuml;r die ganze Spielsituation und insbesondere f&uuml;r die Wiedereinnahme der Ausgangsposition.</p>
+<p class="list"><img src="../image/list.gif" />
+Eigene Abwehrst&auml;rken m&uuml;ssen ausgen&uuml;tzt werden, beispielsweise erhalten besonders gute Verteidigerinnen den Bereich des Hauptangriffs.</p>
+<p class="list"><img src="../image/list.gif" />
+Eigene Abwehrschw&auml;chen sollen sich verdecken lassen.</p>
+<p class="p">
+Bei hart geschlagenen B&auml;llen unterschreitet allerdings die Flugzeit des Balles die Reaktionszeit des Menschen und verhindert damit m&ouml;gliche Korrekturen von Fehlern in der Vorbereitung der Verteidigung - das gilt vor allem f&uuml;r den M&auml;nnerbereich, mehr und mehr aber auch f&uuml;r den Frauenbereich.</p>
+<p class="p1">
+<a name="Anchor_2">Eine &Uuml;bersicht</a></p>
+<p class="p">
+Die Verteidigung ist eine individuelle Leistung jeder einzelnen Spielerin, die eingebettet in ein komplexes System ihre speziellen Aufgaben zu erf&uuml;llen hat.</p>
+<p class="p2">
+<a name="Anchor_3">Die Individuelle Technik</a></p>
+<p class="p">
+Grundlegendes<br>Der Block<br>Der Abwehrbagger<br>Die Verteidigung &uuml;ber Kopf<br>Das Obere Zuspiel<br>Der Hechtbagger<br>Die Rolle</p>
+<p class="p2">
+<a name="Anchor_4">Die Individuelle Taktik</a></p>
+<p class="p">
+Das Erkennen der gegnerischen Handlungsabsichten <br>Die Auswahl einer Gegenstrategie <br>Die Durchf&uuml;hrung der eigenen Handlung <br>Einige &Uuml;bungen</p>
+<p class="p2">
+<a name="Anchor_5">Die Mannschaftstaktik</a></p>
+<p class="p">
+Das Spielsystem <br>Die Verteidigungszonen<br>Ein System f&uuml;r Anf&auml;ngerinnen<br>Einige &Uuml;berlegungen<br>6er-hinten im Halbkreis mit Doppelblock <br>Einige Erweiterungen des Grundsystems<br>Einige &Uuml;bungen<br>Abschlie&szlig;ende Bemerkungen</p>
+<p class="p1">
+<a name="Anchor_6">Die Individuelle Technik</a></p>
+<p class="p">
+Die individuelle Technik, also das regelgerechte Weiterspielen des Balls ist die Grundlage des Spiels. Wer von Taktik keine Ahnung hat, kann Volleyball spielen, zwar auf eingeschr&auml;nktem Niveau, aber es ist Volleyball. Aber ohne die technischen F&auml;higkeiten den Ball zu spielen ist Volleyball unm&ouml;glich.</p>
+<p class="p">
+Anf&auml;ngerinnen beginnen mit oberen und unterem Zuspiel, dazu kommen dann das Service von unten und oben und der Angriffsschlag. Vor allem durch den Angriff steigen die Anforderungen in der Verteidigung, es werden nun mehr und mehr verschiedene Techniken eingef&uuml;hrt, um die Art der Ballbehandlung besser auf die jeweiligen Situationen abstimmen zu k&ouml;nnen.</p>
+<p class="p2">
+<a name="Anchor_7">Grundlegendes</a></p>
+<p class="list"><img src="../image/list.gif" />
+Die Ausgangsposition - die Bereitschaftsstellung.<br>Die Ausgangsposition am Spielfeld h&auml;ngt vom Spielsystem ab. Jede Spielerin mu&szlig; aufmerksam das Spielgeschehen verfolgen und jederzeit bereit sein den Ball zu spielen.</p>
+<p class="list"><img src="../image/list.gif" />
+Schnelles Erlaufen des Spielortes.<br>Je fr&uuml;her es gelingt den Spielort einzunehmen, um so mehr Zeit bleibt zur Vorbereitung und damit zur korrekten Ausf&uuml;hrung der Spielhandlung.</p>
+<p class="list"><img src="../image/list.gif" />
+Einleitung der Bewegung (Stoppschritt, Stemmschritt, ...).<br>Das korrekte Abstoppen der Bewegung ist unabdingbare Voraussetzung zum genauen Spielen des Balls. Wer im Laufen baggert, wird den Ball nur sehr selten genau zur Aufspielerin bringen.</p>
+<p class="list"><img src="../image/list.gif" />
+Korrekte Ausrichtung des K&ouml;rpers - Stellung zum Ball.<br>Der K&ouml;rper mu&szlig; hinter den Ball gebracht werden und von den Fu&szlig;spitzen bis zum Kopf m&ouml;glichst genau in die Richtung zeigen, in die der Ball fliegen soll.</p>
+<p class="list"><img src="../image/list.gif" />
+Sicherheit in der Ausf&uuml;hrung.<br>Jede einzelne Technik mu&szlig; auch in Ausnahmesituation sicher beherrscht werden um Fehler zu vermeiden, deshalb darf auch unter Stre&szlig; die Qualit&auml;t der Handlungen nicht sinken.</p>
+<p class="list"><img src="../image/list.gif" />
+Bewegung nach der Ballber&uuml;hrung.<br>Die Bewegung nach der Ballber&uuml;hrung ist vor allem nach Spr&uuml;ngen wichtig. Es gilt durch eine weiche und kontrollierte Landung die weitere Spielbereitschaft zu sichern und einen technischen Fehler, wie Netzber&uuml;hrung oder &Uuml;bertritt, zu vermeiden. Au&szlig;erdem schont eine weiche Landung die Gelenke und sichert so die langfristige Freude an der Sportart.</p>
+<p class="p2">
+<a name="Anchor_8">Der Block</a></p>
+<p class="p">
+Der Block soll verhindern, da&szlig; der Ball &uuml;berhaupt das Netz &uuml;berquert, oder, wenn das nicht gelingt, soweit abgebremst wird, das er &quot;einfach&quot; zur Aufspielerin gespielt werden kann. Ebenso dient er zur Orientierung der Verteidigung, die Spielerinnen im Feld nehmen ihre Positionen je nach Spielsystem ein, ab dem mittlerem Niveau h&auml;ngen diese mehr oder weniger stark vom Block ab.</p>
+<p class="list"><img src="../image/list.gif" />
+Einzelblock: Nur eine Spielerin springt, er wird im Anf&auml;ngerbereich und gegen Schnellangriffe angewendet.</p>
+<p class="list"><img src="../image/list.gif" />
+Doppelblock: Zwei Spielerrinnen springen, der Standardblock auf mittlerem und h&ouml;herem Niveau, wenn gen&uuml;gend Zeit zu seiner Bildung bleibt.</p>
+<p class="list"><img src="../image/list.gif" />
+Dreierblock: Je h&auml;rter eine Angreiferin schl&auml;gt, um so schwieriger wird die Verteidigung im Feld, deshalb wird versucht gegen die Hauptangreiferin mit drei Spielerinnen zu blocken.</p>
+<p class="p">
+Die Blockspielerin erwartet den Angriff in mittlerer Bereitschaftsstellung. Die H&auml;nde sind bereits vor den Kopf angehoben, die Finger gespannt, die Oberarme zeigen waagrecht nach vorne, die F&uuml;&szlig;e sind schulterbreit auseinander. Im Sprung werden die Arme nach oben gestreckt, je nach Sprungh&ouml;he werden die H&auml;nde leicht nach hinten geklappt (passiver Block) oder in senkrechter Stellung &uuml;ber das Netz gef&uuml;hrt (aktiver Block).</p>
+<p class="p">
+Vor allem gro&szlig;e Spielerinnen sollen die Arme bis zur Landung gestreckt halten, da sie meist auch im Stand noch passiv blocken k&ouml;nnen, damit bleibt zumindest der vordere Teil des Feldes auch nach zu fr&uuml;hem Sprung gesch&uuml;tzt. Weich landen und abfedern, die Gelenke werden es danken.</p>
+<p class="p2">
+<a name="Anchor_9">Der Abwehrbagger</a></p>
+<p class="p">
+Das Untere Zuspiel in der Verteidigung dient dem Ziel dem Ball zu bremsen und m&ouml;glichst genau zur Aufspielerin zu spielen. Wichtig ist es den K&ouml;rper so weit wie m&ouml;glich hinter und unter den Ball zu bringen, so da&szlig; der Ball vor der H&uuml;fte oder dem Bauch gespielt werden kann. Jedes seitliche Spielen des Balles ist ungenauer und dadurch riskanter, wenn auch aus Zeitmangel manchmal nicht zu vermeiden.</p>
+<p class="p">
+Die Beinstellung ist deutlich &uuml;ber schulterbreit, um so breiter, je h&auml;rter der Angriff erwartet wird, da nach hartem Schlag kaum mehr die Zeit f&uuml;r einen Schritt bleibt. Der &auml;u&szlig;ere Fu&szlig; ist etwas weiter vorne und st&auml;rker belastet, dadurch wird der Ball nach innen (zur Aufspielerin) gelenkt. Die noch m&ouml;glichen leichten Korrekturen erfolgen durch seitliches Verschieben des K&ouml;rpers, dabei ist der &Uuml;bergang zur Rolle(siehe unten) flie&szlig;end.</p>
+<p class="p">
+Die Arme werden bis zur Ballber&uuml;hrung der Angreiferin offen vor dem K&ouml;rper gehalten, die H&auml;nde zeigen leicht nach oben. Sobald die Spielerin erkennt, da&szlig; sie den Ball im Abwehrbagger spielen wird, schiebt sie die Schultern nach vorne, streckt die Arme und schlie&szlig;t die H&auml;nde.</p>
+<p class="p">
+Der Balltreffpunkt soll kurz vor der Mitte der Unterarme liegen. Die Arme nehmen dem Ball die Geschwindigkeit, je nach H&auml;rte des Schlags werden sie ruhig gehalten oder sogar leicht zur&uuml;ck bewegt. Wenn der Angriff nicht so hart geschlagen ist oder nach Lob oder Finte wird der Ball durch die Streckung der Beine und nicht durch den Armeinsatz nach vorne geschoben.</p>
+<p class="p2">
+<a name="Anchor_10">Die Verteidigung &uuml;ber Kopf</a></p>
+<p class="p">
+Durch die Ver&auml;nderungen der Regeln in den letzten Jahren ist es m&ouml;glich den Ball &quot;unsauber&quot; zu spielen. Wenn sich die Verteidigerin weiter vorne am Feld aufstellt, wird zwar ihre Reaktionszeit etwas k&uuml;rzer, daf&uuml;r kann sie aber einen gr&ouml;&szlig;eren Bereich des Spielfelds abdecken.</p>
+<p class="p">
+Ein Ball, der auf Kopfh&ouml;he kommen, darf jetzt aber nicht mehr vorbeigelassen werden, sondern mu&szlig; irgendwie nach vorne gespielt werden. Daf&uuml;r empfehle ich ein &quot;beidh&auml;ndiges Klatschen&quot; des Balls. Der Ball wird mit beiden Handfl&auml;chen von hinten-unten nach vorne-oben geschoben, &auml;hnlich verschiedener Beach-Techniken oder einem verungl&uuml;ckten Versuchen zu pritschen, wie man es manchmal bei Anf&auml;ngerinnen sehen kann. Wer Volleyball noch vor einigen Jahren gelernt hat, wird bei dieser Verteidigungstechnik anfangs nicht wohl sein, aber sie ist effektiv.</p>
+<p class="p">
+Die wichtigste Voraussetzung daf&uuml;r ist eine Bereitschaftsstellung mit ge&ouml;ffneten H&auml;nden, die Unterarme werden waagrecht nach vorne gehalten, die H&auml;nde zeigen leicht nach oben. Je weiter vorne ich am Spielfeld beginne, um so h&ouml;her mu&szlig; ich die H&auml;nde halten.</p>
+<p class="p">
+Viele Spielerinnen lernen das erst, wenn sie den Ball mehrmals ins Gesicht bekommen haben. Je fr&uuml;her sie das verstehen, um so geringer ist die Gefahr, da&szlig; sie passiv auf der Ferse h&auml;ngen bleiben, da sie eher fl&uuml;chten als aktiv in den Ball gehen wollen.</p>
+<p class="p2">
+<a name="Anchor_11">Das Obere Zuspiel</a></p>
+<p class="p">
+Vor allem geschenkte B&auml;lle m&uuml;ssen so genau wie m&ouml;glich zur Aufspielerin kommen, damit der Gegenangriff effektiv wird. So wird der Gegner zu einem riskanten und damit fehleranf&auml;lligen Spiel gezwungen - je mehr es gelingt ihn unter Druck zu setzen, um so eher wird es gelingen als Sieger vom Platz zu gehen.</p>
+<p class="p">
+Im Oberen Zuspiel ist meist eine gr&ouml;&szlig;ere Genauigkeit m&ouml;glich, dazu wird der Ballweg k&uuml;rzer und damit das eigene Spiel schneller und schwieriger zu durchschauen.</p>
+<p class="p">
+Wie schon beim Abwehrbagger entscheidet schon die Beinarbeit fr&uuml;hzeitig, ob ein korrektes und genaues Spielen des Balles vor und ober der Stirn m&ouml;glich ist. Durch Ganzk&ouml;rperstreckung nach vorne oben wird der Ball beschleunigt.</p>
+<p class="p">
+Wichtig ist auch die Handhaltung, die Finger sind leicht gespannt und umschlie&szlig;en den Ball, die Daumen zeigen leicht nach hinten und oben (&quot;K&ouml;rbchen&quot;).</p>
+<p class="p2">
+<a name="Anchor_12">Der Hechtbagger</a></p>
+<p class="p">
+Der Hechtbagger ist eine Nottechnik, die haupts&auml;chlich nach Wahrnehmungsfehlern oder nach nur teilweise gelungenen Aktionen angewendet werden mu&szlig;. Beispiele daf&uuml;r sind eine zu sp&auml;t erkannte Finte oder ein Blockabpraller. Durch das Hechten nach dem Ball kann dieser im Spiel gehalten und damit ein Fehler verhindert werden, darunter leidet aber die Genauigkeit.</p>
+<p class="p">
+Die Spielerin beginnt mit einem langen Ausfallsschritt, der Oberk&ouml;rper wird auf den Oberschenkel gelegt. Nun wird der K&ouml;rper &uuml;ber das Bein nach vorne geschoben. Die Landung erfolgt am Bauch, die H&auml;nde schieben den K&ouml;rper nach vorne, dabei ist die K&ouml;rperspannung wichtig. Wenn ein Knie zu fr&uuml;h den Boden ber&uuml;hrt, f&auml;llt der K&ouml;rper zur anderen Seite. Blaue Flecken seitlich vorne &uuml;ber den Beckenknochen sind die untr&uuml;gliche Folge. Der Ball wird kurz vor der Landung mit einer oder beiden H&auml;nden gespielt. Je niederer der K&ouml;rper nach vorne geschoben wird und je besser man ins Gleiten kommt, um so geringer ist die Gefahr sich weh zu tun.</p>
+<p class="p2">
+<a name="Anchor_13">Die Rolle</a></p>
+<p class="p">
+Wie der Hechtbagger dient die Rolle zur Abwehr von B&auml;llen, die anders kommen als erwartet. Der K&ouml;rperschwerpunkt wird seitlich &uuml;ber den Fu&szlig; hinaus verlagert. Kurz vor der Bodenber&uuml;hrung durch das Ges&auml;&szlig; wird der Ball mit einer oder beiden H&auml;nden gespielt. Durch das Abrollen &uuml;ber den R&uuml;cken oder die Schulter kommt die Spielerin rasch wieder auf die Beine und ist zur n&auml;chsten Aktion bereit.</p>
+<p class="p1">
+<a name="Anchor_14">Die Individuelle Taktik</a></p>
+<p class="p">
+Unter der individuelle Taktik verstehe ich <i>die bewu&szlig;te Auswahl einer Handlung als L&ouml;sung einer Spielsituation</i>.</p>
+<p class="list"><img src="../image/list.gif" />
+<i>Die bewu&szlig;te Auswahl einer Handlung:</i> Um W&auml;hlen zu k&ouml;nnen, mu&szlig; die Spielerin mehrere M&ouml;glichkeiten haben, das bedeutet, da&szlig; sie verschiedenen Verteidigungstechniken beherrschen mu&szlig; und sich dessen auch bewu&szlig;t ist.</p>
+<p class="list"><img src="../image/list.gif" />
+<i>Die L&ouml;sung einer Spielsituation:</i> Die Spielerin mu&szlig; wissen, was am Spielfeld geschieht und wie sie darauf Einflu&szlig; nehmen kann. Nur wer dem Geschehen folgen kann, wird nicht nur dem Ball hinterherlaufen, sondern Akzente setzen und so das Geschehen kontrollieren k&ouml;nnen.</p>
+<p class="p2">
+<div style="text-align:center;"><img src="../wwbild/ver00001.gif" border="0"></div> 
+<a name="Anchor_15">Das Erkennen der gegnerischen Handlungsabsichten</a></p>
+<p class="p">
+Jede Spielerin mu&szlig; um die einzelnen Situationen, die sich am Spielfeld ergeben k&ouml;nnen, m&ouml;glichst genau Bescheid wissen. Es wird trotzdem immer wieder &Uuml;berraschungen geben, aber je mehr jede einzelne wei&szlig;, um so seltener wird ihr das passieren und um so eher wird es ihr gelingen die passende Antwort zu finden.</p>
+<p class="p">
+Nur die Spielerin, die wei&szlig;, was geschehen kann, wei&szlig; auch, worauf sie zu achten hat, um erkennen zu k&ouml;nnen, was der Gegner plant.</p>
+<p class="p3">
+<a name="Anchor_16">Worauf ist wann zu achten?</a></p>
+<p class="p">
+Die Spielerin mu&szlig; auf die situationsspezifischen Merkmale achten und sie aus der F&uuml;lle an Informationen, die w&auml;hrend dem Spiel auf sie einstr&ouml;men, filtern k&ouml;nnen.</p>
+<p class="p3">
+<a name="Anchor_17">Die K&ouml;rpersignale</a></p>
+<p class="p">
+Abh&auml;ngig vom Niveau sind die Signale mehr oder weniger deutlich ausgepr&auml;gt und k&ouml;nnen mehr oder weniger lang versteckt werden. Die Spielerinnen m&uuml;ssen in der Verteidigung von Anfang an darauf trainiert werden, die Signale zu erkennen und darauf zu reagieren. Mit zunehmender Leistungsf&auml;higkeit werden sie auch besser auf ein m&ouml;glichst lange verstecktes Merkmal achten k&ouml;nnen.</p>
+<p class="p4">
+<a name="Anchor_18">Die Angriffsbereitschaft</a></p>
+<p class="list"><img src="../image/list.gif" />
+Wo stellt sich die Angreiferin zum Angriff auf?<br>Die meisten Angreiferinnen haben eine bevorzugte Anlaufrichtung, die sie so oft wie m&ouml;glich beibehalten wollen. Deshalb kann man aus ihrer Vorbereitungsposition meist auf den Ort ihres Angriffs schlie&szlig;en.</p>
+<p class="list"><img src="../image/list.gif" />
+Startet die Angreiferin fr&uuml;h oder sp&auml;t, oder ist sie vielleicht &uuml;berhaupt nicht bereit?<br>Auf mittlerem Niveau kann man am Verhalten der Diagonalspielerin und der Mittelangreiferin oft sehr fr&uuml;h erkennen, ob sie mit einem Aufspiel rechnen, und wenn ja, mit welchem.</p>
+<p class="p4">
+<a name="Anchor_19">Die Aufspielerin</a></p>
+<p class="p">
+Je nach Position der Aufspielerin lassen sich oft verschiedenen Angriffe von vornherein ausschalten.</p>
+<p class="list"><img src="../image/list.gif" />
+Wo spielt die Aufspielerin den Ball?<br>Wenn die Aufspielerin nach schlechter Annahme oder Verteidigung nicht nahe am Netz aufspielen kann, ist kaum kein Schnellangriff zu erwarten.</p>
+<p class="list"><img src="../image/list.gif" />
+Wie ist die Fu&szlig;stellung der Aufspielerin?<br>Wenn die Aufspielerin vom Netz weg mu&szlig;, kann man meist an der Beinstellung oder der Ausrichtung der Schulterachse die zu erwartende Zuspielrichtung ablesen.</p>
+<p class="list"><img src="../image/list.gif" />
+Sind die Arme eher gestreckt oder gebeugt ?<br>Viele Aufspielerinnen spielen kurze, schnelle B&auml;lle mit gestreckten Armen, lange B&auml;lle mit gebeugten Armen.</p>
+<p class="list"><img src="../image/list.gif" />
+Ist das Becken vorgeschoben?<br>Ein nach vorne geschobenes Becken deutet auf ein Aufspiel &uuml;ber Kopf.</p>
+<p class="p4">
+<a name="Anchor_20">Die Anlaufrichtung</a></p>
+<p class="p">
+Die Hauptschlagrichtung des Angriffs l&auml;&szlig;t sich aus der Anlaufrichtung der Angreiferin ablesen. Je h&auml;rter sie angreifen will, um so weniger darf die Schlagrichtung davon abweichen.</p>
+<p class="p4">
+<a name="Anchor_21">Die Entfernung der Angreiferin vom Netz</a></p>
+<p class="p">
+Die Blockspielerinnen springen mit der Angreiferin und nicht(!) mit dem Ball, je nach Entfernung der Angreiferin vom Netz gleichzeitig oder etwas sp&auml;ter. Kleine Spielerinnen sind l&auml;nger in der Luft als gro&szlig;e, das bedeutet, da&szlig; der Block gegen eine kleine Au&szlig;enangreiferin besonders sp&auml;t springen mu&szlig;.</p>
+<p class="p">
+Je n&auml;her der Ball am Netz ist und je n&auml;her am Netz die Angreiferin deshalb springt, um so steiler schl&auml;gt sie normalerweise nach unten, danach kann die Verteidigerin an der Linie ihre Position w&auml;hlen. Die Verteidigerinnen in der Diagonale bleiben l&auml;nger an der Linie, nur bei sehr knappen B&auml;llen m&uuml;ssen sie ebenfalls aufr&uuml;cken.</p>
+<p class="p">
+Die Ratschl&auml;ge f&uuml;r die Feldverteidigung beruhen auf Erfahrungswerten und sind an die jeweiligen Angreiferinnen anzupassen. Es ist die Aufgabe des Trainers, eventuell auch der Ersatzspielerinnen, die Angreiferinnen zu beobachten, die Spielerinnen m&uuml;ssen sich dann &quot;nur&quot; an die Tips halten.</p>
+<p class="p4">
+<a name="Anchor_22">Die Schulterachse</a></p>
+<p class="p">
+Wenn die Angreiferin den K&ouml;rper nach dem Absprung verdreht, so kann die Verteidigerin davon ausgehen, da&szlig; sie normal zur Schulterachse schlagen will.</p>
+<p class="p4">
+<a name="Anchor_23">Der Schlagarm</a></p>
+<p class="p">
+Der Schlagarm ist ein wichtiges Indiz daf&uuml;r, ob die Angreiferin schlagen oder fintieren will. Eine Ausholbewegung l&auml;&szlig;t auf einen Angriffsschlag, ein gestreckter Arm auf eine kurzen Ball schlie&szlig;en.</p>
+<p class="p">
+Gute Angreiferinnen k&ouml;nnen die Finte lange verstecken, oder auch mit einem gestreckten Arm schlagen, dabei sinkt aber die Schlagh&auml;rte und es bleibt mehr Zeit f&uuml;r eine sp&auml;te Reaktion. Weiters k&ouml;nnen sie durch Handgelenkseinsatz dem Ball eine andere als die erwartete Richtung geben, wie schon zuvor sinkt dabei die Schlagh&auml;rte.</p>
+<p class="p2">
+<a name="Anchor_24">Die Auswahl einer Gegenstrategie</a></p>
+<p class="p">
+Je fr&uuml;her die Zuordnung der Signale zu den gespeicherten Handlungsmustern gelingt, um so eher kann das weitere Geschehen vorausgeahnt werden - Antizipation der gegnerischen Handlungen.</p>
+<p class="p">
+Durch das fr&uuml;hzeitige Wissen um die wahrscheinliche Handlung des Gegners kann die Verteidigungshandlung vor der eigentlichen Angriffshandlung beginnen, dadurch steigt die Erfolgschance. Wenn man bedenkt, wie kurz die verbleibende Reaktionszeit bei harten Schl&auml;gen ist, so wird klar, da&szlig; nur so eine erfolgreiche Verteidigung m&ouml;glich ist.</p>
+<p class="p2">
+<a name="Anchor_25">Die Durchf&uuml;hrung der eigenen Handlung</a></p>
+<p class="p">
+Es gilt zur richtigen Zeit am richtigen Ort zu sein. Die eigenen Handlungen m&uuml;ssen schnell und konsequent ausgef&uuml;hrt werden. Es ist besser immer fr&uuml;h zu agieren und deshalb auch manchmal falsch zu handeln, als solange zu z&ouml;gern, bis es meistens zu sp&auml;t ist.</p>
+<p class="p2">
+<a name="Anchor_26">Einige &Uuml;bungen</a></p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00002.gif" border="0"></div> 
+Die Grund&uuml;bung: Schlag - Verteidigung.<br>Die Spielerin am Netz wirft den Ball ungef&auml;hr 2m hoch auf(1), so hat die Verteidigerin gen&uuml;gend Zeit f&uuml;r die Bewegung(1&#39;), und schl&auml;gt im Stand(2). Die Spielerin im Hinterfeld bewegt sich mit dem aufgeworfenen Ball 1 bis 2 Schritte zur&uuml;ck und wieder vor (1&#39;) und verteidigt(3). Den Ball fangen und von vorne, 10x, dann Wechsel.<br>Variation: 2 bis 3 Finten einstreuen, deutlich durch die Armhaltung (gestreckter Arm) anzeigen.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00003.gif" border="0"></div> 
+&Uuml;bungsreihe zum Festigen der Verteidigung nach Bewegung: OZ am Netz, UZ im Hinterfeld mit Nachlaufen. Nach und nach verschiedenen Zusatzaufgaben stellen, die Ziel&uuml;bung lautet: Angriff nach (zweimaligem) Zwischenspiel am Netz, Verteidigung im Hinterfeld. Wie bei der vorigen &Uuml;bung mu&szlig; das Aufspiel min. 2m hoch sein, nur so hat die Verteidigerin gen&uuml;gend Zeit f&uuml;r ihre Bewegung.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00004.gif" border="0"></div> 
+Kleinfeld: Angriff - Verteidigung - Aufspiel - Angriff - ...<br>Die Verteidigung erfolgt in der Feldmitte(V) und wird durch die Angreiferin(A) unterst&uuml;tzt, es folgt das Aufspiel(B) und ein Angriff. Die Angreiferin wechselt auf die andere Seite des Spielfelds und wird dort zu neuen Aufspielerin, die Verteidigerin wird zur Angreiferin, die Aufspielerin zur Verteidigerin. Von der Warteposition(W) r&uuml;ckt eine neue Aufspielerin nach. Sobald die &Uuml;bung funktioniert, blockiert die gegnerische Aufspielerin die Angreiferin, die Verteidigerin und die Aufspielerin sichern.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00005.gif" border="0"></div> 
+Erkennen der Angriffsrichtung - &quot;Lesen&quot; der K&ouml;rpersignale (vgl. Sonnenbichler 1993): Zuerst Wurf, sp&auml;ter Zuspiel nach K&ouml;rperdrehung vom Netz ins Hinterfeld. 2 bis 3 Verteidigerinnen(V) wechseln sich ab. Sie m&uuml;ssen die K&ouml;rpersignale der Angreiferin(A) &quot;lesen&quot; und sollen den Verteidigungsort erlaufen haben, bevor die Netzspielerin den Ball wirft oder spielt. Am Netz langsam die Geschwindigkeit der B&auml;lle erh&ouml;hen - bis zum Schlag.<br>Variation: Erh&ouml;hung des Zeitdrucks, Erzeugung von Stre&szlig; - die Verteidigerin h&auml;lt einen zus&auml;tzlichen Ball. Nach dem Erlaufen der Spielposition, vor dem Spielen des Balls von der Angreiferin, wirft sie den eigenen Ball zur n&auml;chsten Verteidigerin.<br>Variation: Die beiden Gruppen &uuml;ben nicht mehr unabh&auml;ngig voneinander, sondern die Verteidigerinnen wechseln zwischen den beiden Angreiferinnen hin- und her.<br>Variation: Auf Signal vom Trainer werden die Positionen in der Gruppe gewechselt ohne(!) die &Uuml;bung zu unterbrechen.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00006.gif" border="0"></div> 
+Lesen der K&ouml;rpersignale - Einspielen:<br>Die Netzspielerin(A) spielt nach einem Eigenzuspiel und einer deutlichen K&ouml;rperdrehung den Ball zu einer der beiden Verteidigerinnen (hier V<sub>1</sub>). Die andere Verteidigerin (hier V<sub>2</sub>) soll das so fr&uuml;h wie m&ouml;glich erkennen und eine Zusatzaufgabe erf&uuml;llen, wenn m&ouml;glich schon vor dem Angriff durch A. Mit lockeren B&auml;llen beginnen, langsam h&auml;rter werden.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00007.gif" border="0"></div> 
+Lesen der K&ouml;rpersignal - Fortsetzung der vorherigen &Uuml;bung mit versch&auml;rftem Tempo:<br>Die Netzspielerin(A) greift an, die Verteidigerin, die nicht verteidigt (hier V<sub>2</sub>), l&auml;uft nach vorne, spielt auf und geht wieder zur&uuml;ck, um sofort zu verteidigen. Wieder mit lockeren B&auml;llen beginnen, diese &Uuml;bung ist sehr intensiv. Es kann auch mit mehrere Verteidigerinnen gespielt werden, die sich abwechseln.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00008.gif" border="0"></div> 
+F&uuml;r Fortgeschrittene - Aufspiel, Angriff und Verteidigung:<br>Aufspiel aus der Mitte, Angriff abwechselnd von den Au&szlig;enpositionen, Verteidigung auf der Position 6 (D). Die Aufspielerin (A) wird die n&auml;chste Angreiferin auf der anderen Seite (A'), die Angreiferin wird zur Verteidigerin (C), die Verteidigerin geht ihrem Ball nach und sichert, sie wird die n&auml;chste Aufspielerin (B). Zuerst den Ablauf der Wechsel &uuml;ben, dann erst den Schwerpunkt auf das Lesen der K&ouml;rpersignale legen, mit dieser &Uuml;bung wird die Verteidigung auf der Position 6 vorbereitet. In weiterer Folge k&ouml;nnen auch die &uuml;brigen Positionen im Hinterfeld trainiert werden, sp&auml;ter auch mehrere zugleich.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00009.gif" border="0"></div> 
+Das fr&uuml;hzeitiges Erkennen der Richtung des Aufspiels:<br>Der Trainer(T) wirft den Ball zur Aufspielerin(Z), je nach Beobachtungsaufgabe zum Netz oder an die 3m Linie. Die Aufspielerin spielt 0er und 2er, zuerst ohne zu t&auml;uschen, sp&auml;ter soll sie ihr Aufspiel solange wie m&ouml;glich verstecken, statt einem 0er wird ein Halber gespielt. Die Netzspielerinnen(1, 2, 3) m&uuml;ssen so fr&uuml;h wie m&ouml;glich reagieren und einen Doppelblock(2&#39;, 3) bilden, die freie Netzspielerin(1) l&ouml;st sich zur Feldverteidigung(1&#39;).</p>
+<p class="p1">
+<a name="Anchor_27">Die Gruppentaktik</a></p>
+<p class="p">
+Die Gruppentaktik betrifft mehrer Spielerinnen, aber nicht die ganze Mannschaft.</p>
+<p class="p">
+Weitere gruppentaktische M&ouml;glichkeiten beschreibe ich im Abschnitt &uuml;ber den Block.</p>
+<p class="p2">
+<a name="Anchor_28">Das Kreuzen</a></p>
+<p class="p">
+Das Kreuzen in der Verteidigungsbewegung bedeutet, dass je nach L&auml;ge des Schlages einmal die eine, einmal die andere Spielerin verteidigen sollte. Sobald das klappt, k&ouml;nnen auch sehr harte B&auml;lle, die zwischen die Verteidigerinnen geschlagen werden, noch erreicht werden. Der h&auml;ufigste Fall, in dem das Kreuzen in der Verteidigung auftritt, ist ein diagonaler Schlag zwischen die Positionen 4 und die 5, an diesem Beispiel m&ouml;chte ich auch das Kreuzen erkl&auml;ren.</p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00010.gif" border="0"></div> 
+Die Angreiferin schl&auml;gt hart innen am Block vorbei, der Ball fliegt zwischen die Verteidigerinnen auf der Position 4 und 5. Beide Spielerinnen sind f&uuml;r diesen Ball zust&auml;ndig. Je h&auml;rter nun die Angreiferin schl&auml;gt, um so k&uuml;rzer wird die Zeit, die f&uuml;r die Abwehr bleibt. Bei sehr harten Schl&auml;gen bleibt keine Zeit den einmal gew&auml;hlten Platz zu ver&auml;ndern, aus einer breiten und tiefen Ausgangsstellung kann der K&ouml;rper nur mehr seitlich verschoben werden, der Bereich, der damit abgedeckt werden kann, ist schwarz eingezeichnet. Die Spielerin auf der Position 4 verschiebt sich nach rechts, die Spielerin auf der Position 5 nach links. Um den Ball zu erreichen, der genau in der Mitte kommt, m&uuml;ssen beide Spielerinnen abrollen - wenn sie gestaffelt stehen, rollen sie aneinander vorbei. Von hinten schaut das so aus, als ob sich ihre Wege kreuzen w&uuml;rden - daher der Name.</p>
+<p class="p1">
+<a name="Anchor_29">Die Mannschaftstaktik</a></p>
+<p class="p">
+Im Gegensatz zur individuellen Taktik und zur Gruppentaktik betrifft die Mannschaftstaktik, wie der Name schon sagt, die gesamte Mannschaft.</p>
+<p class="p2">
+<a name="Anchor_30">Das Spielsystem</a></p>
+<p class="p">
+Unter einem Spielsystem versteht man die Abstimmung der einzelnen Spielerinnen untereinander.</p>
+<p class="list"><img src="../image/list.gif" />
+Wer ist wof&uuml;r verantwortlich?<br>Bsp.: Block, Sicherung gegen Angriffe der Aufspielerin, Verteidigung der Linie oder der Diagonalen, Sicherung gegen Finten und Lobs, usw.</p>
+<p class="list"><img src="../image/list.gif" />
+Wer mu&szlig; wann was tun?<br>Die Positionen der Spielerinnen am Spielfeld und die jeweiligen Aufgaben, die sie erf&uuml;llen m&uuml;ssen.</p>
+<p class="p">
+Es gibt viele verschieden Spielsysteme, jedes hat spezifische Vor- und Nachteile. Manche passen f&uuml;r bestimmte Spielerinnen besser, manche weniger. Je nach Angriffsart des Gegners gibt es mehr oder weniger gut geeignete, auf h&ouml;herem Niveau kommen mehrere Systeme situationsabh&auml;ngig zur Anwendung.</p>
+<p class="p">
+Das bedeutet, da&szlig; man die M&auml;dchen schon fr&uuml;hzeitig mit Systemaufgaben betrauen sollte. Nur wenn das Lernen fr&uuml;h beginnt, werden sie sp&auml;ter, wenn die Angriffe h&auml;rter und die zur Verf&uuml;gung stehenden Zeiten k&uuml;rzer werden, zu situationsabh&auml;ngiger Reaktion in der Lage sein. Und es gibt genug Spielerinnen auf &quot;h&ouml;herem&quot; Niveau, deren Verteidigung nur auf Zufall beruht (wenn sie n&auml;mlich &quot;abgeschossen&quot; werden).</p>
+<p class="p2">
+<a name="Anchor_31">Die Verteidigungszonen</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00011.gif" border="0"></div> 
+Beim Hauptangriff des Gegners &uuml;ber seine Position 4 l&auml;&szlig;t sich das Feld, und damit der Verteidigungsraum in mehrere Bereiche unterteilen (vgl. Papageorgiou/ Spitzley 96):</p>
+<p class="list"><img src="../image/list.gif" />
+Wenn ein harter Schlag in die rote Zone gelingt, hat die Verteidigerin wegen der Geschwindigkeit des Balls keine wirkliche Abwehrchance. Die Ballflugzeit wird k&uuml;rzer als die menschliche Reaktionszeit, dadurch geht sich keine bewu&szlig;te Abwehrhandlung aus.</p>
+<p class="list"><img src="../image/list.gif" />
+In der gelben Zone treffen die meisten Schl&auml;ge auf, hier hat die Spielerin eine Erfolgsaussicht von circa 40 bis 50%.</p>
+<p class="list"><img src="../image/list.gif" />
+B&auml;lle, die in die gr&uuml;ne Zone fliegen, sind so lange in der Luft, da&szlig; die Verteidigerin gen&uuml;gend Zeit zur Reaktion hat. Daraus ergibt sich eine gute Chance zur erfolgreichen Verteidigung.</p>
+<p class="list"><img src="../image/list.gif" />
+Die graue Zone hinter dem Block darf eigentlich nicht getroffen werden k&ouml;nnen, in den sogenannten Blockschatten sollte kein Ball kommen k&ouml;nnen. Da&szlig; ich daran nicht ganz glaube, und wie ich darauf reagiere, zeige ich sp&auml;ter.</p>
+<p class="p">
+Diese Zonen verschieben sich je nach Angriffsort, -h&ouml;he und Entfernung der Angreiferin vom Netz. Die Abwehrbereiche sind vom Niveau der Mannschaften abh&auml;ngig und von Leistungsbereich zu Leistungsbereich unterschiedlich. Es gilt den Hauptabwehrbereich (die gelbe Zone) des jeweiligen Bereichs zu finden und die Spielerinnen optimal zu positionieren.</p>
+<p class="p">
+Zus&auml;tzlich mu&szlig; die Verteidigung gegen kurze und lange Finten m&ouml;glich bleiben. Da der Ball dabei aber weniger schnell gespielt wird und deshalb l&auml;nger fliegt, sind bei geeigneter individueller Vorbereitung auch l&auml;ngere Verschiebungen zum Ball m&ouml;glich.</p>
+<p class="p2">
+<a name="Anchor_32">Ein System f&uuml;r Anf&auml;ngerinnen</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00012.gif" border="0"></div> 
+Ungef&auml;hr mit dieser Aufstellung oder einer Abwandlung davon beginnen die meisten mit dem Spiel am gro&szlig;en Feld. Jede Spielerin hat eine festgelegte Aufgabe, die sich erst mit der n&auml;chsten Position &auml;ndert. F&uuml;r Anf&auml;ngerinnen ist es recht gut geeignet, aber ...</p>
+<p class="list"><img src="../image/list.gif" />
+Die beiden Hinterspielerinnen haben ihre meisten Erfolge in der Verteidigung, wenn sie sich ziemlich weit in die Mitte begeben. Sp&auml;ter sollten sie aber von weiter au&szlig;en verteidigen, damit sie nicht abgeschossen werden, was ein v&ouml;lliges Neulernen der Verteidigung erfordert. Das geschieht aber oft wegen Zeitmangel oder Schlampigkeit nicht mehr. Die Spielerinnen haben ein f&uuml;r sp&auml;ter &quot;falsches&quot; oder zumindest ung&uuml;nstiges Bewegungsmuster automatisiert und kommen kaum mehr davon los.</p>
+<p class="list"><img src="../image/list.gif" />
+Die Spielerin auf der Position 6 geht aus dem gleichen Grund oft weiter nach hinten und spielt im Mittelfeld. Sobald die Angriffsleistung der Gegner steigt, ist sie dort aber hoffnungslos &uuml;berfordert und wird abgeschossen. Systeme mit einer Spielerin in der Feldmitte werden nur in der absoluten Weltspitze gespielt und auch dort nur von einigen wenigen besonders daf&uuml;r trainierten Spezialistinnen beherrscht.</p>
+<p class="list"><img src="../image/list.gif" />
+Gegen Mannschaften, die das Aufspiel weit genug nach au&szlig;en spielen, hat es eine Blockspielerin schwer, da die Laufwege sehr lange werden. Der Absprung wird dadurch ungenau, die Landung erfolgt meist weiter au&szlig;en als der Absprung, Blockerfolge werden zu Zufallsprodukten. Die Orientierung der Verteidigung am Block wird unm&ouml;glich, ist aber zum Gelingen einer Verteidigung, die nicht vom Zufall abh&auml;ngig sein will, notwendig.</p>
+<p class="list"><img src="../image/list.gif" />
+Auch wenn die Verteidigung gelingt, ist die Blockspielerin meist noch nicht zum Aufspiel bereit, da sie erst ihre Bewegung nach au&szlig;en stoppt, dadurch geht der Ball verloren oder die B&auml;lle werden direkt zum Gegner zur&uuml;ckgespielt (&quot;Affentennis&quot;). Bei 6 Spielerinnen wird das zum Problem, wenn nur eine den Ball ber&uuml;hrt, die andere 5 drohen &quot;einzuschlafen&quot;. B&ouml;se Zungen behaupten sogar, da&szlig; Volleyball bei M&auml;dchen deshalb beliebt ist, weil man dabei sicher nicht ins Schwitzen kommt.</p>
+<p class="list"><img src="../image/list.gif" />
+Eine sp&auml;tere Umstellung auf Doppelblock wird schwierig und wegen des unsauberen Sprungstils sehr verletzungsgef&auml;hrlich (Landung am Fu&szlig; der Partnerin =&gt; &Uuml;berkn&ouml;cheln und immer wieder B&auml;nderri&szlig;).</p>
+<p class="list"><img src="../image/list.gif" />
+Wenn man zum Doppelblock &uuml;bergeht, &uuml;berfordern die direkt daraus ableitbaren Systeme viele, da sie einzelnen Spielerinnen sehr komplexe und extrem beobachtungsintensive Aufgaben &uuml;bertragen (z.B.: Kurzsicherung durch Position 6, Verteidigung der langen Diagonalen durch 1 oder 5 inner- und au&szlig;erhalb des Blockschattens, u.a.). Aufgaben, die ein solches Ausma&szlig; an Beobachtungs- und Entscheidungsf&auml;higkeit verlangen, k&ouml;nnen eigentlich erst von Spielerinnen auf sehr hohem Niveau einigerma&szlig;en fehlerfrei bew&auml;ltigt werden.</p>
+<p class="p2">
+<a name="Anchor_33">Einige &Uuml;berlegungen</a></p>
+<p class="list"><img src="../image/list.gif" />
+Es gilt also ein System zu finden, da&szlig; sich sowohl f&uuml;r Anf&auml;nger eignet, als auch leicht und schrittweise erweitern l&auml;&szlig;t.</p>
+<p class="list"><img src="../image/list.gif" />
+Auf unteren Niveau gleichen sich die durch Block erzielbaren Vorteile und die dadurch verursachten Nachteile meist aus. Es spricht also wenig f&uuml;r den Block, aber auch nichts dagegen.<br>Sobald ein Gegner aber angreifen kann, wird der Block unerl&auml;&szlig;lich, und sei es auch nur dazu, da&szlig; nicht so nah ans Netz aufgespielt werden kann. Wenn man jetzt das System wieder umstellen mu&szlig;, handelt man sich eine Verz&ouml;gerung ein. Deshalb glaube ich, da&szlig; von Anfang an geblockt werden soll.<br>Vergleiche dazu auch Italien: Hier wird der Block vielfach schon vor dem Schlag eingef&uuml;hrt.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00013.gif" border="0"></div> 
+Die Blockl&uuml;cke: Beim Doppelblock gelingt es lange Zeit nur selten den Block zu schlie&szlig;en, damit wird der Blockschatten l&ouml;chrig. Dazu kommt, da&szlig; viele Angreiferinnen Driveb&auml;lle &uuml;ber den Block schlagen, nicht, weil sie es bewu&szlig;t versuchen, sondern vielmehr deshalb, weil sie es nicht anders k&ouml;nnen.</p>
+<p class="list"><img src="../image/list.gif" />
+Die Aufgabenverteilung zwischen den Positionen sollte ausgewogen sein, die Anzahl der notwendigen Beobachtungen und daraus folgenden Entscheidungen darf niemanden &uuml;berm&auml;&szlig;ig belasten.</p>
+<p class="list"><img src="../image/list.gif" />
+Keine schwierigen Richtungswechsel in der Bewegung. Ich halte die Bewegung zur Seitenlinie der Spielerin auf der Position 6 (unabh&auml;ngig ob vorne oder hinten) f&uuml;r sehr schwierig:<br>Beobachten und Entscheiden: Wohin geht der Ball?<br>Zur Seite auf die Ausgangsposition laufen.<br>Stehenbleiben im Raum ohne Blickkontrolle (die Augen m&uuml;ssen zu diesem Zeitpunkt auf der Angreiferin und am Ball sein).<br>Schritt nach vorne innen zum Ball.<br>Vor allem hinten hat die Spielerin, wenn sie zu sp&auml;t ist, kaum eine M&ouml;glichkeit einen entlang der Linie geschlagenen Ball zu erreichen. Selbst wenn sie springt, wird sie wegen der falschen K&ouml;rperorientierung (nach au&szlig;en) den Ball kaum mehr ins Feld, und schon gar nicht zur Aufspielerin (vorne innen) verteidigen k&ouml;nnen.</p>
+<p class="list"><img src="../image/list.gif" />
+Ich halte eine weitgehende Reduktion auf eine R&uuml;ckw&auml;rts - Vorw&auml;rts - Bewegung f&uuml;r leichter:<br>Beobachten und Entscheiden: Wohin geht der Ball?<br>Davon leitet sich ab, wie weit ich zur&uuml;cklaufen mu&szlig;, entweder ein Schritt oder soweit wie m&ouml;glich (eigentlich 3-4m, anfangs bleibt es bei soweit wie m&ouml;glich).<br>Drehung Richtung Ball (sollte &quot;leicht&quot; m&ouml;glich sein, da der Blick noch haupts&auml;chlich am Ball ist).<br>1 bis 2 Schritte Richtung Ball, von der Spielerin aus gesehen nach vorne.<br>Wenn die Spielerin zu sp&auml;t ist und nicht mehr weit genug zur&uuml;ckkommt, so geht sie trotzdem mit dem Angriff nach vorne, die Verteidigung erfolgt nun auch &uuml;berkopf und zur Feldmitte, das ist zwar weniger genau, aber m&ouml;glich.</p>
+<p class="list"><img src="../image/list.gif" />
+Seitw&auml;rts laufen wie bisher die Blockspielerinnen, eine andere Bewegungsrichtung ist nicht m&ouml;glich. Diese seitliche Bewegung ist auch nicht so schwierig, da man dem Ball anfangs nur &quot;nach&quot;-l&auml;uft. Ich habe schon Zw&ouml;lfj&auml;hrige gesehen, die als Au&szlig;enspielerin vergessen haben sich zu l&ouml;sen und &uuml;ber das ganze Feld zum Dreierblock gelaufen sind und diesen auch geschlossen haben. (Vielleicht sollte man aus ihr eine Mittelblockerin machen.)</p>
+<p class="p2">
+<a name="Anchor_34">6er-hinten im Halbkreis mit Doppelblock</a></p>
+<p class="p">
+Dieses System betrifft nur die Verteidigung. Aus der Grundstellung, auch Basis genannt, wird je nach Angriff eine bestimmte Position am Feld eingenommen. Von der Position der mittleren Hinterspielerin, dem &quot;6er&quot; und dem Bild, da&szlig; die Verteidigungspositionen ungef&auml;hr ergeben, leitet sich der Name ab: <b>&quot;6er-hinten im Halbkreis mit Doppelblock&quot;</b>.</p>
+<p class="p">
+Die einzelnen Aufstellungen leiten sich aus verschiedenen Untersuchungen vor allem aus Deutschland ab. Diese haben sich speziell mit dem weiblichen Nachwuchs und der Allgemeinen Klasse auf niederem und mittlerem Niveau besch&auml;ftigt.</p>
+<p class="p">
+Aber auch in der Weltspitze werden &auml;hnliche Verteidigungssysteme gespielt, wenn auch mit Erweiterungen (z.B. Brasilien, OS '92 in Barcelona).</p>
+<p class="p3">
+<a name="Anchor_35">Die Laufwege</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00014.gif" border="0"></div> 
+Das Grundmuster der Bewegung lautet: <b>&quot;Mit dem Ball zur&uuml;ck, mit dem Schlagarm vor.&quot;</b> Je nach Aufspiel l&auml;uft jede Spielerin ungef&auml;hr einen halben Meter hinter ihre Verteidigungsposition zur&uuml;ck, kurz vor dem Angriff macht sie einen Schritt nach vorne. Der Schritt nach vorne sollte als kleiner und flacher Sprung (&auml;hnlich dem &quot;Split - Step&quot; im Tennis) ausgef&uuml;hrt werden. Die Landung erfolgt gleichzeitig mit der Ballber&uuml;hrung (dem &quot;Klatschen&quot;) der Angreiferin. Da die Spielerinnen schon in der Vorw&auml;rtsbewegung sind, k&ouml;nnen auch Finten &quot;leicht&quot; erlaufen werden. Dazu wird der Schlagarm beobachtet: Ausholbewegung =&gt; Schlag, gerader Arm =&gt; Finte (siehe auch: Die K&ouml;rpersignale, Seite 14).</p>
+<p class="p3">
+<a name="Anchor_36">Die Grundstellung - Basis</a></p>
+<p class="p">
+Im oberen Leistungsbereich werden die Spielerinnen auf Position I, V und VI meist sehr weit vorgezogen. Diese Aufstellung ist vor allem einzunehmen, wenn die gegnerische Zuspielerin Vorderspielerin ist und Zuspielerfinten zu erwarten sind und, wenn die Schnellangreiferinnen aggressiv agieren.</p>
+<p class="p">
+Im unteren Bereich werden diese Spielerinnen meist weiter hinten positioniert. Neueren &Uuml;berlegungen (vgl. Westphal 92) zufolge, die sich auch mit den Situationen der Netz&uuml;berquerung des Balles nach nur einer oder nach zwei Ber&uuml;hrungen besch&auml;ftigen, soll man die Verteidigerinnen schon ab dem Anf&auml;ngerbereich sehr weit vorne aufstellen. Dadurch wird die Anzahl der m&ouml;glichen Verteidigungssysteme eingeschr&auml;nkt, entscheidend ist daf&uuml;r die Auswahl der &Uuml;bungen im Training, besonders die fr&uuml;hzeitige Vermittlung von positionsspezifischen Verhaltensweisen.</p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00015.gif" border="0"></div> 
+Die Vorderspielerinnen warten am Netz gegen&uuml;ber ihren jeweiligen Angreiferinnen und bereiten sich auf den Block vor, sowohl gegen den Angriff, als auch gegen den ersten oder zweiten Ball. Ist die Aufspielerin Vorderspielerin, ist sie die Angreiferin f&uuml;r ihre Blockspielerin, ist die Aufspielerin Hinterspielerin, wird sie nicht(!) geblockt, die Angreiferin ist die Diagonalspielerin.</p>
+<p class="p">
+Die beiden vorderen Hinterspielerinnen (1 und 5) stehen ungef&auml;hr 1m bis 1&#189;m im Feld und &#189;m hinter der 3m Linie. Sie achten auf direkt zur&uuml;ckgespielte B&auml;lle und auf Finten und 2. Hand - Angriffe (vor allem der Aufspielerin) in die vordere H&auml;lfte des Spielfeldes. Dabei werden sie von den beiden &auml;u&szlig;eren Vorderspielerinnen (2 und 4) unterst&uuml;tzt.</p>
+<p class="p">
+Solange die R&uuml;ckw&auml;rtsbewegung noch nicht so gut klappt, kann etwas weiter hinten gestartet werde, die gegnerischen Aufspielerinnen k&ouml;nnen meist noch nicht so versteckt angreifen, so bleibt auch noch mehr Zeit zum Erkennen eines direkten Angriffs. Nur zu fr&uuml;h d&uuml;rfen sie nicht starten, da in der R&uuml;ckw&auml;rtsbewegung keine Verteidigung nach vorne m&ouml;glich ist!</p>
+<p class="p">
+Die 3. Hinterspielerin (Position 6) steht ca. in der Mitte des Hinterfelds, eventuell leicht zur Aufspielerin hin orientiert, sie sichert alleine die gesamte hintere H&auml;lfte des Spielfelds. Sie kann einen gr&ouml;&szlig;eren Raum abdecken, da der Ball l&auml;nger in der Luft ist, wenn er bis nach hinten fliegt.</p>
+<p class="p3">
+<a name="Anchor_37">Der &quot;Geschenkte&quot; Ball</a></p>
+<p class="p">
+Der &quot;Geschenkte Ball&quot; ist jene Situationen, in der die Gegner, meist nach einer mi&szlig;gl&uuml;ckten Annahme oder Verteidigung, keinen geplanten Angriff, vor allem keinen Angriffsschlag mehr spielen k&ouml;nnen. Der Ball wird nur mehr irgendwie &uuml;ber das Netz gespielt, um ihn im Spiel zu halten und einen direkten Fehler zu vermeiden.</p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00016.gif" border="0"></div> 
+Sobald eine Spielerin erkennt, da&szlig; der Gegner keinen Angriffsschlag mehr spielen kann, ruft sie laut: &quot;Geschenkt!&quot; oder &quot;Ohne!&quot;. Darauf werden die in der Skizze gezeigten Positionen eingenommen, bevor die Angreiferin den Ball ber&uuml;hrt. Nur dann ist das Erreichen eines ganz kurz &uuml;ber das Netz gespielten Balles noch m&ouml;glich. Wer eine Spielerin noch in der R&uuml;ckw&auml;rtsbewegung ist, so f&auml;llt ihr der Ball vor die F&uuml;&szlig;e und sie hat trotzdem kaum eine Chance zur Verteidigung!</p>
+<p class="p">
+Diese Aufstellung entspricht circa der Situation Annahme im 5er-Riegel mit Aufspiel von der Position 2, die Spielerinnen m&uuml;ssen sich aber zum Ball orientieren. Wenn die Aufspielerin von der 1 einl&auml;uft, l&ouml;st sich die Spielerin auf der Position 2 - das bedeutet, da&szlig; die Diagonal- und die Aufspielerin immer auf die gleiche Position laufen, unabh&auml;ngig davon, ob sie Vorder- oder Hinterspielerinnen sind.</p>
+<p class="p">
+Durch das fr&uuml;hzeitige L&ouml;sen vom Netz ist eine bessere Vorbereitung auf den Angriff m&ouml;glich, vor allem auf den Schnellangriff. Durch die Verteilung der Spielerinnen &uuml;ber das Feld sollte eine sichere Verteidigung des &quot;Geschenkten&quot; Balles sichergestellt sein.</p>
+<p class="p3">
+<a name="Anchor_38">Der Angriff auf der Position 4</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00017.gif" border="0"></div> 
+Auf mittlerem Niveau ist das der h&auml;ufigste Angriff, auf unterem Niveau dann, wenn von der Mitte aufgespielt wird und die Rechtsh&auml;nderinnen &uuml;berwiegen.</p>
+<p class="p">
+Die Au&szlig;enspielerin (Position 2) stellt den Block, die Mittelblockerin schlie&szlig;t auf, gemeinsam blocken sie die Angreiferin (nicht den Ball!). Die freie Netzspielerin l&ouml;st sich hinter die 3m Linie.</p>
+<p class="p">
+Die &auml;u&szlig;eren Hinterspielerinnen (Positionen 5 und 1) l&ouml;sen sich auf ungef&auml;hr 6m. Sie sollen den Ball, wenn ihn die Angreiferin trifft, neben dem Block sehen k&ouml;nnen. Sie sollen nicht im Blockschatten stehen, dorthin kommt kein harter Ball!</p>
+<p class="p">
+Die mittlere Hinterspielerin (Position 6) sucht die Mitte des Blocks, um eine eventuelle L&uuml;cke zu verteidigen, was anfangs noch recht oft vorkommt. Auch unterlaufen viele Angreiferinnen und spielen deshalb ihren Angriff als Driveschlag &uuml;ber den Block und hoffentlich genau auf die Verteidigerin in der Mitte des Hinterfelds.</p>
+<p class="p3">
+<a name="Anchor_39">Eine Finte auf der Position 4</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00018.gif" border="0"></div> 
+Wenn eine Spielerin erkennt, da&szlig; die Angreiferin eine Finte oder einen Lob spielen will (Bsp: Die Angreiferin springt mit nach oben gestrecktem Arm zum Ball.), ruft sie laut: &quot;Schupfer!&quot; oder &quot;Finte!&quot;, o.&auml;. Die beiden Spielerinnen, die f&uuml;r die kurzen B&auml;lle zust&auml;ndig sind (hier 1 und 4), laufen daraufhin sofort hinter den Block und sichern, die beiden Spielerinnen im Hinterfeld bewegen sich etwas nach au&szlig;en und konzentrieren sich vor allem auf einen Ball in eine der hinteren Ecken.</p>
+<p class="p3">
+<a name="Anchor_40">Der Angriff auf der Position 3</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00019.gif" border="0"></div> 
+Der h&auml;ufigste Angriff auf unterem Niveau, wenn das Aufspiel von der Position 2 kommt.</p>
+<p class="p">
+Die Mittelblockerin stellt den Block, die Au&szlig;enangreiferin schlie&szlig;t auf. Die freie Netzspielerin (Position 2) l&ouml;st sich und verteidigt wie die linke Hinterspielerin (Position 5) extrem diagonale Angriffe und Finten in die Vorderzone.</p>
+<p class="p">
+Die rechte Hinterspielerin (Position 1) verteidigt die lange Diagonale, die mittlere (Position 6) wie zuvor hinter dem Block.</p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00020.gif" border="0"></div> 
+Es kommt immer wieder vor, da&szlig; die Au&szlig;enangreiferin vergi&szlig;t zu blocken und sich l&ouml;st, damit dr&auml;ngt sie die Spielerin hinter ihr zur&uuml;ck. Meist erreichen sie nicht ganz ihre dann anzustrebenden Positionen, es ergibt sich ungef&auml;hr die links gezeigte Aufstellung. Vor allem die Hinterspielerin auf Position 5 sollte dann &uuml;berkopf verteidigen k&ouml;nnen, sonst wird sie den Ball irgendwann ins Gesicht bekommen.</p>
+<p class="p">
+Die mittlere Hinterspielerin (Position 6) mu&szlig; nun als Feldverteidigerin die fehlende Blockspielerin ersetzen und den sonst vom Block gesch&uuml;tzten Bereich abdecken.</p>
+<p class="p3">
+<a name="Anchor_41">Eine Finte auf der Position 3</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00021.gif" border="0"></div> 
+Wie schon bei der Finte auf der Position 4 sind 2 Spielerinnen vor allem f&uuml;r kurze B&auml;lle (2 und 5) und 2 Spielerinnen eher f&uuml;r die langen B&auml;lle (1 und 6) zust&auml;ndig</p>
+<p class="p3">
+<a name="Anchor_42">Der Angriff auf der Position 2</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00022.gif" border="0"></div> 
+Am Anfang noch recht h&auml;ufig, da das Aufspiel aus der Mitte kommt, wird er sp&auml;ter selten und gewinnt nach der Einf&uuml;hrung eines L&auml;ufersystems wieder an Bedeutung.</p>
+<p class="p">
+Die Aufgaben der einzelnen Spielerinnen sind spiegelgleich denen bei Angriff &uuml;ber die Position 4, gleiches gilt bei einer Finte.</p>
+<p class="p2">
+<a name="Anchor_43">Einige Erweiterungen des Grundsystems</a></p>
+<p class="p">
+Wenn einerseits der Block stabil ist und die Blockl&uuml;cke nicht mehr so h&auml;ufig &quot;passiert&quot;, andererseits die Gegnerinnen eher hart und weniger mit Driveb&auml;llen angreifen, kann man sich auch andere Verteidigungsorte f&uuml;r die Spielerin auf der Position 6 &uuml;berlegen. Dadurch verschieben sich auch die Verteidigungsorte und -aufgaben der &uuml;brigen Spielerinnen mehr oder weniger.</p>
+<p class="p">
+Als Trainer mu&szlig; ich absch&auml;tzen k&ouml;nnen, auf welchen Orten die Spielerinnen die gr&ouml;&szlig;ten Aussichten auf Erfolg haben. Danach sollte ich das Verteidigungssystem ausw&auml;hlen, nat&uuml;rlich immer vorausgesetzt, da&szlig; es im Training und in Vorbereitungsspielen ausreichend eingef&uuml;hrt und erprobt worden ist.</p>
+<p class="p3">
+<a name="Anchor_44">Der Schnellangriff auf der Position 3</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00023.gif" border="0"></div> 
+Bei einem Schnellangriff sind keine langen Laufwege mehr m&ouml;glich, da die Zeit zwischen Aufspiel und Angriffsschlag zu kurz ist. Eine M&ouml;glichkeit ist, die Grundstellung der Blockspielerinnen zu ver&auml;ndern, immer auf die Gefahr hin, da&szlig; der Gegner die eigenen Pl&auml;ne durchschaut und eine seiner Angreiferinnen blockfrei zum Schlagen kommt. Der Standardfall ist, da&szlig; die Mittelblockerin blockt, die beiden Au&szlig;enblockerinnen l&ouml;sen sich einen Schritt vom Netz und orientieren sich zum Ball - Kurzsicherung. Die beiden vorderen Hinterspielerinnen gehen einen Schritt nach hinten au&szlig;en und verteidigen die Diagonalen, die Spielerin auf der Position 6 geht aus dem Blockschatten und verteidigt je nach Angreiferin und Trainerinformation rechts oder links davon. G&uuml;nstig ist auch eine Absprache zwischen Mittelblockerin und Verteidigerin auf der 6, eine der M&ouml;glichkeiten sind Zeichen, wie sie vom Block im Beachvolleyball bekannt sind.</p>
+<p class="p3">
+<a name="Anchor_45">Der Angriff auf der Position 3 - eine Alternative</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00024.gif" border="0"></div> 
+Wenn auf der Position 3 eine Linksh&auml;nderin steht oder eine Rechtsh&auml;nderin meist mit Drehschlag angreift, empfiehlt es sich m&ouml;glicherweise die Verteidigung &quot;umzudrehen&quot;. Au&szlig;erdem hat die Aufspielerin in dieser Aufstellung einen bedeutend k&uuml;rzeren Laufweg, vor allem als Hinterspielerin.</p>
+<p class="p3">
+<a name="Anchor_46">Der Gegner spielt viele Finten</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00025.gif" border="0"></div> 
+Wenn der Gegner oft ansatzlose Finten spielt und der eigene Doppelblock einigerma&szlig;en stabil steht, ist zu &uuml;berlegen, wie man die Kurzsicherung st&auml;rken kann. Diese Aufstellung wird vielfach auch als Anf&auml;ngersystem vorgeschlagen, meiner Meinung nach ist sie daf&uuml;r aber nicht geeignet (siehe auch: Seite 26ff). Schwierigkeiten gibt es vor allem in der Abstimmung in der Kurzsicherung (1 und 4) und bei einem Driveschlag &uuml;ber den Block (5 und 6), f&uuml;r routinierte Mannschaften mit gutem Block und einer erfahrenen Spielerin auf Position 5 ist diese Variante aber durchaus &uuml;berlegenswert.</p>
+<p class="p3">
+<a name="Anchor_47">Der Gegner schl&auml;gt meistens diagonal</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00026.gif" border="0"></div> 
+Voraussetzung f&uuml;r diese Variante ist wie zuvor ein stabiler Block, der nicht durchschlagen werden kann. 3 Spielerinnen verteidigen die Diagonale, die Spielerin auf der Position 1 verteidigt je nach erwarteter H&auml;ufigkeit von Schl&auml;gen entlang der Linie oder kurzen Finten hinten(1) oder vorne(1&#39;).</p>
+<p class="p3">
+<a name="Anchor_48">Der Gegner schl&auml;gt nicht extrem diagonal</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00027.gif" border="0"></div> 
+Wenn der Gegner nicht extrem diagonal schl&auml;gt, kann die freie Netzspielerin weiter nach innen kommen und die Kurzsicherung weitgehend &uuml;bernehmen. Es ist f&uuml;r sie aber sehr schwierig danach weit genug nach au&szlig;en zu kommen, um f&uuml;r den eigenen Angriff anlaufen zu k&ouml;nnen. Diese Variante war vor einigen Jahren noch sehr popul&auml;r, aus dem erw&auml;hnten Grund ist sie aber wieder verschwunden. Steht eine Hinterfeldangreiferin zur Verf&uuml;gung, ersetzt der 9er den 0er, die Sicherungsspielerin spielt einen Kombinationsangriff (Bsp.: 5er oder 8er).</p>
+<p class="p3">
+<a name="Anchor_49">Extreme Kurzsicherung</a></p>
+<p class="p">
+<div style="float:right;"><img src="../wwbild/ver00028.gif" border="0"></div> 
+Durch das Vorziehen der Spielerin auf der Position 1 und das zur Mitte Gehen der Spielerin auf der Position 4 l&auml;&szlig;t sich der Raum hinter dem Block gut sichern, daf&uuml;r bleibt das &uuml;brige Feld teilweise ungesch&uuml;tzt. Diese Variante entspricht teilweise den Zielpositionen der Standardvariante, wenn erkannt wird, da&szlig; die Angreiferin eine Finte spielen will.</p>
+<p class="p2">
+<a name="Anchor_50">Einige &Uuml;bungen</a></p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00029.gif" border="0"></div> 
+Das System erlernen: Anfangs ohne Block(2, 3), sp&auml;ter mit Block. Der Trainer steht auf 3 bis 4 Langb&auml;nken, die in Richtung der Hauptschlagrichtung aufgestellt werden und damit auch als Orientierungshilfe in der Verteidigung dienen. Die Spielerinnen beginnen in der Grundstellung, eine Helferin(H<sub>1</sub>) spielt den Ball zum Trainer(T) auf, die Verteidigerinnen (1, 6, 5, 4) nehmen ihre Positionen ein, der Trainer greift an und sie spielen den Ball zur Aufspielerin. Die Helferin holt sich wieder den Ball. Alle 5 bis 10 Angriffe um eine Position weitergehen. Am Anfang mu&szlig; jede Spielerin jede Position erlernen, damit sp&auml;ter alle wissen, wie ihre Nebenleute reagieren sollen und unterst&uuml;tzen k&ouml;nnen, wenn eine ausf&auml;llt. So fr&uuml;h wie m&ouml;glich ist das Ziel der Verteidigung immer einen erfolgreichen Gegenangriff aufzubauen.<br>Variation: Den Block(2, 3) erh&ouml;ht (z. B. am Kasten) aufstellen, dadurch wird die Orientierung f&uuml;r die Verteidigerinnen leichter.<br>Variation: Bald mit Variationen beginnen - Geschenkter Ball, Lob, Finten - damit die Spielerinnen in der Feldverteidigung nicht schlampig oder faul werden, da pro Aktion nur eine von Vieren den Ball ber&uuml;hrt (wenn &uuml;berhaupt).<br>Variation: Die anderen Angriffspositionen werden ebenso ge&uuml;bt. Am Anfang kann sich die Spielerin auf der Position 6 an den B&auml;nken orientieren, sie sollte aber wie alle Verteidigerinnen fr&uuml;hzeitig in der Beobachtung des eigenen Blocks und der Angreiferin geschult werden.</p>
+<p class="list"><img src="../image/list.gif" />
+Bei jedem Einschlagen kann eine oder auch mehrere Positionen in der Verteidigung(Block, Feld) besetzt und damit mittrainiert werden. In der Feldverteidigung sollen alle Positionen besetzt werden, damit die Spielerinnen auch das Zusammenspiel im Feld &uuml;ben. Eine weitere Spielerin wird zum Fangen des Balls eingesetzt, damit nicht rollende B&auml;lle die Angreiferinnen gef&auml;hrden. Die Angreiferin soll nur in Ausnahmef&auml;llen unter dem Netz durchgehen und den Ball fangen, denn das w&auml;re ein &quot;&Uuml;ben des &Uuml;bertretens&quot;.</p>
+<p class="list"><img src="../image/list.gif" />
+<div style="float:right;"><img src="../wwbild/ver00030.gif" border="0"></div> 
+Auf einer Seite wird nur angegriffen(A, B, C, ...), auf der anderen Seite steht eine Mannschaft (1 bis 6), die Gegenangriffe aufbauen soll. Je nach deren K&ouml;nnen und der &Uuml;bungsabsicht werden die Angriffspositionen ganz oder teilweise besetzt. Der Trainer(T) wirft die B&auml;lle laufend zur Aufspielerin(Z).<br>Die Verteidigerinnen haben bestimmte Beobachtungsaufgaben zu erf&uuml;llen (Siehe auch: Die K&ouml;rpersignale, Seite 14ff). Im Beispiel mu&szlig; vor allem die Mittelblockerin entscheiden, ob ein Schnellangriff m&ouml;glich ist - Blocksprung in der Mitte und danach erst Aufschlie&szlig;en zum Doppelblock - oder ob nur mehr der Au&szlig;enangriff bleibt - sie soll fr&uuml;hzeitig nach au&szlig;en gehen. Weiters m&uuml;ssen alle Spielerinnen die Entfernung des Aufspiels vom Netz beachten.</p>
+<p class="list"><img src="../image/list.gif" />
+Alle Formen von Einwurfspielen: 2 oder mehr Mannschaften oder Gruppen spielen mit- oder gegeneinander, bei einem Fehler wirft der Trainer sofort einen neuen Ball ein. Bei mehr als 2 Gruppen wird nach einer bestimmten Anzahl von Ballwechseln oder Fehlern (1 bis 5) eine Gruppe ersetzt.</p>
+<p class="p2">
+<a name="Anchor_51">Abschlie&szlig;ende Bemerkungen</a></p>
+<p class="p">
+Ein bewegungsorientiertes System ben&ouml;tigt am Anfang einen etwas h&ouml;heren Trainingsaufwand, daf&uuml;r werden die Spielerinnen beweglicher und aufmerksamer. Sie machen nach einer kurzen Eingew&ouml;hnungszeit (meist rund 1 - 3 Monate) zwar manchmal ungew&ouml;hnliche Fehler, insgesamt aber weniger.</p>
+<p class="p">
+Schwierigkeiten gibt es eher f&uuml;r &quot;Trainer&quot;, die oft schon seit Jahren genau ein System unreflektiert predigen, n&auml;mlich das, da&szlig; sie selber einmal irgendwo gelernt haben.</p>
+<p class="p">
+Das hier gezeigte System kann Schritt f&uuml;r Schritt eingef&uuml;hrt und entwickelt werden. Der sp&auml;teren Weiterentwicklung der Spielerinnen werden weniger Hindernisse in den Weg gelegt als in vielen anderen. Auf Grund der durch das System bedingten und gef&ouml;rderten Beweglichkeit der Spielerinnen ist auch ein sp&auml;terer Umstieg leichter m&ouml;glich.</p>
+<p class="p1">
+<a name="Anchor_52">Literaturverzeichnis</a></p>
+<p class="p">
+Sonnenbichler, Rudi: Entwicklung des Abwehrverhaltens im Volleyball, In: Dannenmann, Fritz: Volleyball aktuell, Hamburg (Cwalina) 1993, 95-106</p>
+<p class="p">
+Papageorgiou/Spitzley, Handbuch f&uuml;r Leistungsvolleyball, Aachen 1996</p>
+<p class="p">
+Gerd Westphal, in: Volleyball innovativ, Ahrensburg 1992</p>
+</div>
+</td>
+   </tr>
+  </table>
+ </body>
+</html>
